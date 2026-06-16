@@ -1,0 +1,4203 @@
+[
+  {
+    "id": "2d56a843-9688-44f9-9d35-c7b0f0f71c3d",
+    "timestamp": "2026-06-13T04:10:22.542Z",
+    "method": "GET",
+    "url": "http://ds-api.prod.shie.com.cn/api/v1/stats/redis/keys",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": {
+      "name": "湖南2024"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "access-control-allow-origin": "*",
+        "content-length": "524",
+        "content-type": "application/json",
+        "date": "Sat, 13 Jun 2026 04:10:21 GMT",
+        "server": "uvicorn"
+      },
+      "data": {
+        "code": 0,
+        "msg": "Success",
+        "data": {
+          "total": 1005,
+          "keys": [
+            "dsv2-144e7bb7",
+            "stats_temp:dsv2-79412065",
+            "dsv2-1880ac9b",
+            "stats_persist:dsv2-79143648",
+            "dsv2-731b8576",
+            "stats_today:dsv2-a5e85a5e",
+            "stats_today:dsv2-a025bf91",
+            "stats_today:dsv2-5058d949",
+            "dsv2-585cb043",
+            "stats_persist:dsv2-1a7c472e",
+            "stats_temp:dsv2-01996b03",
+            "dsv2-a2e7723d",
+            "stats_temp:dsv2-085fd1cf",
+            "stats_today:dsv2-346b4852",
+            "stats_today:dsv2-f379fb2f",
+            "dsv2-86260198",
+            "dsv2-9537e254",
+            "dsv2-3701e4b4",
+            "stats_persist:dsv2-fcc9c34d",
+            "stats_today:dsv2-1fabc99a"
+          ]
+        }
+      },
+      "time": 11,
+      "size": 524
+    }
+  },
+  {
+    "id": "4dd33ddd-7e47-42c6-842a-6443d88a8518",
+    "timestamp": "2026-06-13T04:10:16.261Z",
+    "method": "GET",
+    "url": "http://ds-api-v1.test.shie.com.cn/api/v1/stats/redis/keys",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": {
+      "name": "湖南2024"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "access-control-allow-origin": "*",
+        "content-length": "376",
+        "content-type": "application/json",
+        "date": "Sat, 13 Jun 2026 04:10:15 GMT",
+        "server": "uvicorn"
+      },
+      "data": {
+        "code": 0,
+        "msg": "Success",
+        "data": {
+          "total": 581,
+          "keys": [
+            "dsv2-53ff5f0c",
+            "dsv2-1d9f2017",
+            "dsv2-fa91e396",
+            "dsv2-e93d806b",
+            "dsv2-7a860d21",
+            "dsv2-c2a64fc5",
+            "dsv2-547a3264",
+            "dsv2-331ffb6c",
+            "dsv2-e044d544",
+            "dsv2-6043a407",
+            "dsv2-5dbcbd10",
+            "dsv2-715894f1",
+            "dsv2-fdc2288d",
+            "dsv2-ef9672b8",
+            "dsv2-dac274ef",
+            "dsv2-bca05fc9",
+            "dsv2-f47643d2",
+            "dsv2-41db903e",
+            "dsv2-4be8f597",
+            "dsv2-f748953f"
+          ]
+        }
+      },
+      "time": 97,
+      "size": 376
+    }
+  },
+  {
+    "id": "1e4fabbd-c48f-4ed2-9329-895be45fd97a",
+    "timestamp": "2026-06-13T04:10:11.362Z",
+    "method": "GET",
+    "url": "http://10.17.10.89:8885/api/v1/stats/redis/keys",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": {
+      "name": "湖南2024"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "date": "Sat, 13 Jun 2026 04:10:10 GMT",
+        "server": "uvicorn",
+        "access-control-allow-origin": "*",
+        "content-length": "55",
+        "content-type": "application/json"
+      },
+      "data": {
+        "code": 0,
+        "msg": "Success",
+        "data": {
+          "total": 0,
+          "keys": []
+        }
+      },
+      "time": 7,
+      "size": 55
+    }
+  },
+  {
+    "id": "63e93ddb-f2fb-4b45-94dd-9c7657b8dab5",
+    "timestamp": "2026-06-11T09:19:42.081Z",
+    "method": "POST",
+    "url": "http://10.17.10.89:8885/api/v1/data/getData/test/common/gausstest",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": {},
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "date": "Thu, 11 Jun 2026 09:19:41 GMT",
+        "server": "uvicorn",
+        "content-length": "50",
+        "content-type": "application/json"
+      },
+      "data": {
+        "code": 0,
+        "msg": "成功",
+        "data": [
+          {
+            "count": 33431
+          }
+        ]
+      },
+      "time": 12,
+      "size": 46
+    }
+  },
+  {
+    "id": "18c9dbef-6147-4ef3-a645-f74df4fe6623",
+    "timestamp": "2026-06-11T09:19:32.597Z",
+    "method": "POST",
+    "url": "http://ds-api-v1.test.shie.com.cn/api/v1/data/getData/test/common/gausstest",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": {},
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "content-length": "65",
+        "content-type": "application/json",
+        "date": "Thu, 11 Jun 2026 09:19:32 GMT",
+        "server": "uvicorn"
+      },
+      "data": {
+        "code": 9003,
+        "msg": "读取API接口配置信息失败",
+        "data": {}
+      },
+      "time": 56,
+      "size": 45
+    }
+  },
+  {
+    "id": "d2c388b6-0199-4811-b1d9-feb9fa691bbd",
+    "timestamp": "2026-06-11T09:18:15.739Z",
+    "method": "POST",
+    "url": "http://ds-api.prod.shie.com.cn/api/v1/data/getData/test/common/gausstest",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": {},
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "content-length": "65",
+        "content-type": "application/json",
+        "date": "Thu, 11 Jun 2026 09:18:15 GMT",
+        "server": "uvicorn"
+      },
+      "data": {
+        "code": 9003,
+        "msg": "读取API接口配置信息失败",
+        "data": {}
+      },
+      "time": 19,
+      "size": 45
+    }
+  },
+  {
+    "id": "c29841b1-fc45-4346-9696-6b9a6003cfc0",
+    "timestamp": "2026-06-11T03:18:26.786Z",
+    "method": "GET",
+    "url": "http://ds-api.prod.shie.com.cn/api/v1/stats/redis/key?key=dsv2-90e20d38",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": {
+      "name": "湖南2024"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "access-control-allow-origin": "*",
+        "content-length": "655",
+        "content-type": "application/json",
+        "date": "Thu, 11 Jun 2026 03:18:26 GMT",
+        "server": "uvicorn"
+      },
+      "data": {
+        "code": 0,
+        "msg": "Success",
+        "data": {
+          "next_update": "1781147878",
+          "data": "[{\"type\": \"\\u8239\\u8236\\u6cb9\\u6c61\\u8d23\\u4efb\\u4fdd\\u9669\", \"value\": 834}, {\"type\": \"\\u8fdb\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 1058165}, {\"type\": \"\\u6e38\\u8247\\u4fdd\\u9669\", \"value\": 17}, {\"type\": \"\\u96c6\\u88c5\\u7bb1\\u4fdd\\u9669\", \"value\": 13066}, {\"type\": \"\\u51fa\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 48482}, {\"type\": \"\\u8239\\u8236\\u5efa\\u9020\\u9669\", \"value\": 216}, {\"type\": \"\\u8fdc\\u6d0b\\u8239\\u8236\\u9669\", \"value\": 139584}, {\"type\": \"\\u4fdd\\u8d54\\u4fdd\\u9669\", \"value\": 18138}]",
+          "ttl": 86044
+        }
+      },
+      "time": 9,
+      "size": 655
+    }
+  },
+  {
+    "id": "9179d240-e705-4889-ab55-66cd949b423c",
+    "timestamp": "2026-06-11T03:18:24.997Z",
+    "method": "GET",
+    "url": "http://ds-api.prod.shie.com.cn/api/v1/stats/redis/key?key=dsv2-90e20d38",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": {
+      "name": "湖南2024"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "access-control-allow-origin": "*",
+        "content-length": "655",
+        "content-type": "application/json",
+        "date": "Thu, 11 Jun 2026 03:18:24 GMT",
+        "server": "uvicorn"
+      },
+      "data": {
+        "code": 0,
+        "msg": "Success",
+        "data": {
+          "next_update": "1781147878",
+          "data": "[{\"type\": \"\\u8239\\u8236\\u6cb9\\u6c61\\u8d23\\u4efb\\u4fdd\\u9669\", \"value\": 834}, {\"type\": \"\\u8fdb\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 1058165}, {\"type\": \"\\u6e38\\u8247\\u4fdd\\u9669\", \"value\": 17}, {\"type\": \"\\u96c6\\u88c5\\u7bb1\\u4fdd\\u9669\", \"value\": 13066}, {\"type\": \"\\u51fa\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 48482}, {\"type\": \"\\u8239\\u8236\\u5efa\\u9020\\u9669\", \"value\": 216}, {\"type\": \"\\u8fdc\\u6d0b\\u8239\\u8236\\u9669\", \"value\": 139584}, {\"type\": \"\\u4fdd\\u8d54\\u4fdd\\u9669\", \"value\": 18138}]",
+          "ttl": 86046
+        }
+      },
+      "time": 11,
+      "size": 655
+    }
+  },
+  {
+    "id": "d38b209c-9ae4-4d8c-8413-d165e53f6749",
+    "timestamp": "2026-06-11T03:17:17.355Z",
+    "method": "GET",
+    "url": "http://ds-api.prod.shie.com.cn/api/v1/stats/redis/key?key=dsv2-90e20d38",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": {
+      "name": "湖南2024"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "access-control-allow-origin": "*",
+        "content-length": "655",
+        "content-type": "application/json",
+        "date": "Thu, 11 Jun 2026 03:17:16 GMT",
+        "server": "uvicorn"
+      },
+      "data": {
+        "code": 0,
+        "msg": "Success",
+        "data": {
+          "next_update": "1781147878",
+          "data": "[{\"type\": \"\\u8239\\u8236\\u6cb9\\u6c61\\u8d23\\u4efb\\u4fdd\\u9669\", \"value\": 834}, {\"type\": \"\\u8fdb\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 1058165}, {\"type\": \"\\u6e38\\u8247\\u4fdd\\u9669\", \"value\": 17}, {\"type\": \"\\u96c6\\u88c5\\u7bb1\\u4fdd\\u9669\", \"value\": 13066}, {\"type\": \"\\u51fa\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 48482}, {\"type\": \"\\u8239\\u8236\\u5efa\\u9020\\u9669\", \"value\": 216}, {\"type\": \"\\u8fdc\\u6d0b\\u8239\\u8236\\u9669\", \"value\": 139584}, {\"type\": \"\\u4fdd\\u8d54\\u4fdd\\u9669\", \"value\": 18138}]",
+          "ttl": 86114
+        }
+      },
+      "time": 10,
+      "size": 655
+    }
+  },
+  {
+    "id": "ff3daf57-73ae-4287-9e37-dd2956e09e40",
+    "timestamp": "2026-06-11T03:17:14.951Z",
+    "method": "GET",
+    "url": "http://ds-api.prod.shie.com.cn/api/v1/stats/redis/key?key=dsv2-90e20d38",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": {
+      "name": "湖南2024"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "access-control-allow-origin": "*",
+        "content-length": "655",
+        "content-type": "application/json",
+        "date": "Thu, 11 Jun 2026 03:17:14 GMT",
+        "server": "uvicorn"
+      },
+      "data": {
+        "code": 0,
+        "msg": "Success",
+        "data": {
+          "next_update": "1781147878",
+          "data": "[{\"type\": \"\\u8239\\u8236\\u6cb9\\u6c61\\u8d23\\u4efb\\u4fdd\\u9669\", \"value\": 834}, {\"type\": \"\\u8fdb\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 1058165}, {\"type\": \"\\u6e38\\u8247\\u4fdd\\u9669\", \"value\": 17}, {\"type\": \"\\u96c6\\u88c5\\u7bb1\\u4fdd\\u9669\", \"value\": 13066}, {\"type\": \"\\u51fa\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 48482}, {\"type\": \"\\u8239\\u8236\\u5efa\\u9020\\u9669\", \"value\": 216}, {\"type\": \"\\u8fdc\\u6d0b\\u8239\\u8236\\u9669\", \"value\": 139584}, {\"type\": \"\\u4fdd\\u8d54\\u4fdd\\u9669\", \"value\": 18138}]",
+          "ttl": 86116
+        }
+      },
+      "time": 8,
+      "size": 655
+    }
+  },
+  {
+    "id": "5b4fb743-a3e9-4e4f-aebd-3bd7522a9e38",
+    "timestamp": "2026-06-11T03:17:13.156Z",
+    "method": "GET",
+    "url": "http://ds-api.prod.shie.com.cn/api/v1/stats/redis/key?key=dsv2-90e20d38",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": {
+      "name": "湖南2024"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "access-control-allow-origin": "*",
+        "content-length": "655",
+        "content-type": "application/json",
+        "date": "Thu, 11 Jun 2026 03:17:12 GMT",
+        "server": "uvicorn"
+      },
+      "data": {
+        "code": 0,
+        "msg": "Success",
+        "data": {
+          "next_update": "1781147878",
+          "data": "[{\"type\": \"\\u8239\\u8236\\u6cb9\\u6c61\\u8d23\\u4efb\\u4fdd\\u9669\", \"value\": 834}, {\"type\": \"\\u8fdb\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 1058165}, {\"type\": \"\\u6e38\\u8247\\u4fdd\\u9669\", \"value\": 17}, {\"type\": \"\\u96c6\\u88c5\\u7bb1\\u4fdd\\u9669\", \"value\": 13066}, {\"type\": \"\\u51fa\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 48482}, {\"type\": \"\\u8239\\u8236\\u5efa\\u9020\\u9669\", \"value\": 216}, {\"type\": \"\\u8fdc\\u6d0b\\u8239\\u8236\\u9669\", \"value\": 139584}, {\"type\": \"\\u4fdd\\u8d54\\u4fdd\\u9669\", \"value\": 18138}]",
+          "ttl": 86118
+        }
+      },
+      "time": 9,
+      "size": 655
+    }
+  },
+  {
+    "id": "849645d3-a098-40cc-b6c3-b2fc256813c4",
+    "timestamp": "2026-06-11T03:16:28.061Z",
+    "method": "GET",
+    "url": "http://ds-api.prod.shie.com.cn/api/v1/stats/redis/key?key=dsv2-90e20d38",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": {
+      "name": "湖南2024"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "access-control-allow-origin": "*",
+        "content-length": "655",
+        "content-type": "application/json",
+        "date": "Thu, 11 Jun 2026 03:16:27 GMT",
+        "server": "uvicorn"
+      },
+      "data": {
+        "code": 0,
+        "msg": "Success",
+        "data": {
+          "next_update": "1781147878",
+          "data": "[{\"type\": \"\\u8239\\u8236\\u6cb9\\u6c61\\u8d23\\u4efb\\u4fdd\\u9669\", \"value\": 834}, {\"type\": \"\\u8fdb\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 1058165}, {\"type\": \"\\u6e38\\u8247\\u4fdd\\u9669\", \"value\": 17}, {\"type\": \"\\u96c6\\u88c5\\u7bb1\\u4fdd\\u9669\", \"value\": 13066}, {\"type\": \"\\u51fa\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 48482}, {\"type\": \"\\u8239\\u8236\\u5efa\\u9020\\u9669\", \"value\": 216}, {\"type\": \"\\u8fdc\\u6d0b\\u8239\\u8236\\u9669\", \"value\": 139584}, {\"type\": \"\\u4fdd\\u8d54\\u4fdd\\u9669\", \"value\": 18138}]",
+          "ttl": 86163
+        }
+      },
+      "time": 9,
+      "size": 655
+    }
+  },
+  {
+    "id": "a9d04fe9-9fa6-42f4-810e-6327b6d2d94b",
+    "timestamp": "2026-06-11T03:13:00.520Z",
+    "method": "GET",
+    "url": "http://ds-api.prod.shie.com.cn/api/v1/stats/redis/key?key=dsv2-90e20d38",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": {
+      "name": "湖南2024"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "access-control-allow-origin": "*",
+        "content-length": "655",
+        "content-type": "application/json",
+        "date": "Thu, 11 Jun 2026 03:13:00 GMT",
+        "server": "uvicorn"
+      },
+      "data": {
+        "code": 0,
+        "msg": "Success",
+        "data": {
+          "next_update": "1781147878",
+          "data": "[{\"type\": \"\\u8239\\u8236\\u6cb9\\u6c61\\u8d23\\u4efb\\u4fdd\\u9669\", \"value\": 834}, {\"type\": \"\\u8fdb\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 1058165}, {\"type\": \"\\u6e38\\u8247\\u4fdd\\u9669\", \"value\": 17}, {\"type\": \"\\u96c6\\u88c5\\u7bb1\\u4fdd\\u9669\", \"value\": 13066}, {\"type\": \"\\u51fa\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 48482}, {\"type\": \"\\u8239\\u8236\\u5efa\\u9020\\u9669\", \"value\": 216}, {\"type\": \"\\u8fdc\\u6d0b\\u8239\\u8236\\u9669\", \"value\": 139584}, {\"type\": \"\\u4fdd\\u8d54\\u4fdd\\u9669\", \"value\": 18138}]",
+          "ttl": 86370
+        }
+      },
+      "time": 10,
+      "size": 655
+    }
+  },
+  {
+    "id": "3df053b8-5e56-4451-8363-3376bd985341",
+    "timestamp": "2026-06-11T03:12:59.115Z",
+    "method": "GET",
+    "url": "http://ds-api.prod.shie.com.cn/api/v1/stats/redis/key?key=dsv2-90e20d38",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": {
+      "name": "湖南2024"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "access-control-allow-origin": "*",
+        "content-length": "655",
+        "content-type": "application/json",
+        "date": "Thu, 11 Jun 2026 03:12:58 GMT",
+        "server": "uvicorn"
+      },
+      "data": {
+        "code": 0,
+        "msg": "Success",
+        "data": {
+          "next_update": "1781147878",
+          "data": "[{\"type\": \"\\u8239\\u8236\\u6cb9\\u6c61\\u8d23\\u4efb\\u4fdd\\u9669\", \"value\": 834}, {\"type\": \"\\u8fdb\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 1058165}, {\"type\": \"\\u6e38\\u8247\\u4fdd\\u9669\", \"value\": 17}, {\"type\": \"\\u96c6\\u88c5\\u7bb1\\u4fdd\\u9669\", \"value\": 13066}, {\"type\": \"\\u51fa\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 48482}, {\"type\": \"\\u8239\\u8236\\u5efa\\u9020\\u9669\", \"value\": 216}, {\"type\": \"\\u8fdc\\u6d0b\\u8239\\u8236\\u9669\", \"value\": 139584}, {\"type\": \"\\u4fdd\\u8d54\\u4fdd\\u9669\", \"value\": 18138}]",
+          "ttl": 86372
+        }
+      },
+      "time": 48,
+      "size": 655
+    }
+  },
+  {
+    "id": "01b17233-0c35-46b2-8a11-04dbfb640d80",
+    "timestamp": "2026-06-11T03:12:26.960Z",
+    "method": "GET",
+    "url": "http://ds-api.prod.shie.com.cn/api/v1/stats/redis/key?key=dsv2-90e20d38",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": {
+      "name": "湖南2024"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "access-control-allow-origin": "*",
+        "content-length": "655",
+        "content-type": "application/json",
+        "date": "Thu, 11 Jun 2026 03:12:26 GMT",
+        "server": "uvicorn"
+      },
+      "data": {
+        "code": 0,
+        "msg": "Success",
+        "data": {
+          "next_update": "1781147476",
+          "data": "[{\"type\": \"\\u8239\\u8236\\u6cb9\\u6c61\\u8d23\\u4efb\\u4fdd\\u9669\", \"value\": 834}, {\"type\": \"\\u8fdb\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 1058096}, {\"type\": \"\\u6e38\\u8247\\u4fdd\\u9669\", \"value\": 17}, {\"type\": \"\\u96c6\\u88c5\\u7bb1\\u4fdd\\u9669\", \"value\": 13066}, {\"type\": \"\\u51fa\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 48482}, {\"type\": \"\\u8239\\u8236\\u5efa\\u9020\\u9669\", \"value\": 216}, {\"type\": \"\\u8fdc\\u6d0b\\u8239\\u8236\\u9669\", \"value\": 139584}, {\"type\": \"\\u4fdd\\u8d54\\u4fdd\\u9669\", \"value\": 18138}]",
+          "ttl": 86006
+        }
+      },
+      "time": 10,
+      "size": 655
+    }
+  },
+  {
+    "id": "a0d4f994-9127-4ef2-be4f-8783e53f6dd7",
+    "timestamp": "2026-06-11T03:12:26.408Z",
+    "method": "GET",
+    "url": "http://ds-api.prod.shie.com.cn/api/v1/stats/redis/key?key=dsv2-90e20d38",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": {
+      "name": "湖南2024"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "access-control-allow-origin": "*",
+        "content-length": "655",
+        "content-type": "application/json",
+        "date": "Thu, 11 Jun 2026 03:12:25 GMT",
+        "server": "uvicorn"
+      },
+      "data": {
+        "code": 0,
+        "msg": "Success",
+        "data": {
+          "next_update": "1781147476",
+          "data": "[{\"type\": \"\\u8239\\u8236\\u6cb9\\u6c61\\u8d23\\u4efb\\u4fdd\\u9669\", \"value\": 834}, {\"type\": \"\\u8fdb\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 1058096}, {\"type\": \"\\u6e38\\u8247\\u4fdd\\u9669\", \"value\": 17}, {\"type\": \"\\u96c6\\u88c5\\u7bb1\\u4fdd\\u9669\", \"value\": 13066}, {\"type\": \"\\u51fa\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 48482}, {\"type\": \"\\u8239\\u8236\\u5efa\\u9020\\u9669\", \"value\": 216}, {\"type\": \"\\u8fdc\\u6d0b\\u8239\\u8236\\u9669\", \"value\": 139584}, {\"type\": \"\\u4fdd\\u8d54\\u4fdd\\u9669\", \"value\": 18138}]",
+          "ttl": 86007
+        }
+      },
+      "time": 9,
+      "size": 655
+    }
+  },
+  {
+    "id": "ad2a440f-7981-4d4c-aff6-af22cada720b",
+    "timestamp": "2026-06-11T03:12:25.597Z",
+    "method": "GET",
+    "url": "http://ds-api.prod.shie.com.cn/api/v1/stats/redis/key?key=dsv2-90e20d38",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": {
+      "name": "湖南2024"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "access-control-allow-origin": "*",
+        "content-length": "655",
+        "content-type": "application/json",
+        "date": "Thu, 11 Jun 2026 03:12:25 GMT",
+        "server": "uvicorn"
+      },
+      "data": {
+        "code": 0,
+        "msg": "Success",
+        "data": {
+          "next_update": "1781147476",
+          "data": "[{\"type\": \"\\u8239\\u8236\\u6cb9\\u6c61\\u8d23\\u4efb\\u4fdd\\u9669\", \"value\": 834}, {\"type\": \"\\u8fdb\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 1058096}, {\"type\": \"\\u6e38\\u8247\\u4fdd\\u9669\", \"value\": 17}, {\"type\": \"\\u96c6\\u88c5\\u7bb1\\u4fdd\\u9669\", \"value\": 13066}, {\"type\": \"\\u51fa\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 48482}, {\"type\": \"\\u8239\\u8236\\u5efa\\u9020\\u9669\", \"value\": 216}, {\"type\": \"\\u8fdc\\u6d0b\\u8239\\u8236\\u9669\", \"value\": 139584}, {\"type\": \"\\u4fdd\\u8d54\\u4fdd\\u9669\", \"value\": 18138}]",
+          "ttl": 86008
+        }
+      },
+      "time": 10,
+      "size": 655
+    }
+  },
+  {
+    "id": "f1ba82b9-180e-4ec7-bd64-925bac7f2422",
+    "timestamp": "2026-06-11T03:12:22.088Z",
+    "method": "GET",
+    "url": "http://ds-api.prod.shie.com.cn/api/v1/stats/redis/key?key=dsv2-90e20d38",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": {
+      "name": "湖南2024"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "access-control-allow-origin": "*",
+        "content-length": "655",
+        "content-type": "application/json",
+        "date": "Thu, 11 Jun 2026 03:12:21 GMT",
+        "server": "uvicorn"
+      },
+      "data": {
+        "code": 0,
+        "msg": "Success",
+        "data": {
+          "next_update": "1781147476",
+          "data": "[{\"type\": \"\\u8239\\u8236\\u6cb9\\u6c61\\u8d23\\u4efb\\u4fdd\\u9669\", \"value\": 834}, {\"type\": \"\\u8fdb\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 1058096}, {\"type\": \"\\u6e38\\u8247\\u4fdd\\u9669\", \"value\": 17}, {\"type\": \"\\u96c6\\u88c5\\u7bb1\\u4fdd\\u9669\", \"value\": 13066}, {\"type\": \"\\u51fa\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 48482}, {\"type\": \"\\u8239\\u8236\\u5efa\\u9020\\u9669\", \"value\": 216}, {\"type\": \"\\u8fdc\\u6d0b\\u8239\\u8236\\u9669\", \"value\": 139584}, {\"type\": \"\\u4fdd\\u8d54\\u4fdd\\u9669\", \"value\": 18138}]",
+          "ttl": 86011
+        }
+      },
+      "time": 9,
+      "size": 655
+    }
+  },
+  {
+    "id": "9a9ecc8e-16e4-4edc-b92f-81ff6c88a88e",
+    "timestamp": "2026-06-11T03:11:27.664Z",
+    "method": "GET",
+    "url": "http://ds-api.prod.shie.com.cn/api/v1/stats/redis/key?key=dsv2-90e20d38",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": {
+      "name": "湖南2024"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "access-control-allow-origin": "*",
+        "content-length": "655",
+        "content-type": "application/json",
+        "date": "Thu, 11 Jun 2026 03:11:27 GMT",
+        "server": "uvicorn"
+      },
+      "data": {
+        "code": 0,
+        "msg": "Success",
+        "data": {
+          "next_update": "1781147476",
+          "data": "[{\"type\": \"\\u8239\\u8236\\u6cb9\\u6c61\\u8d23\\u4efb\\u4fdd\\u9669\", \"value\": 834}, {\"type\": \"\\u8fdb\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 1058096}, {\"type\": \"\\u6e38\\u8247\\u4fdd\\u9669\", \"value\": 17}, {\"type\": \"\\u96c6\\u88c5\\u7bb1\\u4fdd\\u9669\", \"value\": 13066}, {\"type\": \"\\u51fa\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 48482}, {\"type\": \"\\u8239\\u8236\\u5efa\\u9020\\u9669\", \"value\": 216}, {\"type\": \"\\u8fdc\\u6d0b\\u8239\\u8236\\u9669\", \"value\": 139584}, {\"type\": \"\\u4fdd\\u8d54\\u4fdd\\u9669\", \"value\": 18138}]",
+          "ttl": 86065
+        }
+      },
+      "time": 9,
+      "size": 655
+    }
+  },
+  {
+    "id": "b319461d-f329-4c57-b5a9-1699fb9dd846",
+    "timestamp": "2026-06-11T03:11:26.194Z",
+    "method": "GET",
+    "url": "http://ds-api.prod.shie.com.cn/api/v1/stats/redis/key?key=dsv2-90e20d38",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": {
+      "name": "湖南2024"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "access-control-allow-origin": "*",
+        "content-length": "655",
+        "content-type": "application/json",
+        "date": "Thu, 11 Jun 2026 03:11:25 GMT",
+        "server": "uvicorn"
+      },
+      "data": {
+        "code": 0,
+        "msg": "Success",
+        "data": {
+          "next_update": "1781147476",
+          "data": "[{\"type\": \"\\u8239\\u8236\\u6cb9\\u6c61\\u8d23\\u4efb\\u4fdd\\u9669\", \"value\": 834}, {\"type\": \"\\u8fdb\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 1058096}, {\"type\": \"\\u6e38\\u8247\\u4fdd\\u9669\", \"value\": 17}, {\"type\": \"\\u96c6\\u88c5\\u7bb1\\u4fdd\\u9669\", \"value\": 13066}, {\"type\": \"\\u51fa\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 48482}, {\"type\": \"\\u8239\\u8236\\u5efa\\u9020\\u9669\", \"value\": 216}, {\"type\": \"\\u8fdc\\u6d0b\\u8239\\u8236\\u9669\", \"value\": 139584}, {\"type\": \"\\u4fdd\\u8d54\\u4fdd\\u9669\", \"value\": 18138}]",
+          "ttl": 86067
+        }
+      },
+      "time": 22,
+      "size": 655
+    }
+  },
+  {
+    "id": "cb09f3e7-03b5-43a6-b1fc-36a88584aa4b",
+    "timestamp": "2026-06-11T03:11:25.572Z",
+    "method": "GET",
+    "url": "http://ds-api.prod.shie.com.cn/api/v1/stats/redis/key?key=dsv2-90e20d38",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": {
+      "name": "湖南2024"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "access-control-allow-origin": "*",
+        "content-length": "655",
+        "content-type": "application/json",
+        "date": "Thu, 11 Jun 2026 03:11:24 GMT",
+        "server": "uvicorn"
+      },
+      "data": {
+        "code": 0,
+        "msg": "Success",
+        "data": {
+          "next_update": "1781147476",
+          "data": "[{\"type\": \"\\u8239\\u8236\\u6cb9\\u6c61\\u8d23\\u4efb\\u4fdd\\u9669\", \"value\": 834}, {\"type\": \"\\u8fdb\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 1058096}, {\"type\": \"\\u6e38\\u8247\\u4fdd\\u9669\", \"value\": 17}, {\"type\": \"\\u96c6\\u88c5\\u7bb1\\u4fdd\\u9669\", \"value\": 13066}, {\"type\": \"\\u51fa\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 48482}, {\"type\": \"\\u8239\\u8236\\u5efa\\u9020\\u9669\", \"value\": 216}, {\"type\": \"\\u8fdc\\u6d0b\\u8239\\u8236\\u9669\", \"value\": 139584}, {\"type\": \"\\u4fdd\\u8d54\\u4fdd\\u9669\", \"value\": 18138}]",
+          "ttl": 86068
+        }
+      },
+      "time": 10,
+      "size": 655
+    }
+  },
+  {
+    "id": "31a7a78d-a72d-49c1-9884-eea079b608a5",
+    "timestamp": "2026-06-11T03:11:25.062Z",
+    "method": "GET",
+    "url": "http://ds-api.prod.shie.com.cn/api/v1/stats/redis/key?key=dsv2-90e20d38",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": {
+      "name": "湖南2024"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "access-control-allow-origin": "*",
+        "content-length": "655",
+        "content-type": "application/json",
+        "date": "Thu, 11 Jun 2026 03:11:24 GMT",
+        "server": "uvicorn"
+      },
+      "data": {
+        "code": 0,
+        "msg": "Success",
+        "data": {
+          "next_update": "1781147476",
+          "data": "[{\"type\": \"\\u8239\\u8236\\u6cb9\\u6c61\\u8d23\\u4efb\\u4fdd\\u9669\", \"value\": 834}, {\"type\": \"\\u8fdb\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 1058096}, {\"type\": \"\\u6e38\\u8247\\u4fdd\\u9669\", \"value\": 17}, {\"type\": \"\\u96c6\\u88c5\\u7bb1\\u4fdd\\u9669\", \"value\": 13066}, {\"type\": \"\\u51fa\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 48482}, {\"type\": \"\\u8239\\u8236\\u5efa\\u9020\\u9669\", \"value\": 216}, {\"type\": \"\\u8fdc\\u6d0b\\u8239\\u8236\\u9669\", \"value\": 139584}, {\"type\": \"\\u4fdd\\u8d54\\u4fdd\\u9669\", \"value\": 18138}]",
+          "ttl": 86068
+        }
+      },
+      "time": 8,
+      "size": 655
+    }
+  },
+  {
+    "id": "1ae67669-9105-4774-b9d4-9bd0b3ffaf7a",
+    "timestamp": "2026-06-11T03:11:24.527Z",
+    "method": "GET",
+    "url": "http://ds-api.prod.shie.com.cn/api/v1/stats/redis/key?key=dsv2-90e20d38",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": {
+      "name": "湖南2024"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "access-control-allow-origin": "*",
+        "content-length": "655",
+        "content-type": "application/json",
+        "date": "Thu, 11 Jun 2026 03:11:23 GMT",
+        "server": "uvicorn"
+      },
+      "data": {
+        "code": 0,
+        "msg": "Success",
+        "data": {
+          "next_update": "1781147476",
+          "data": "[{\"type\": \"\\u8239\\u8236\\u6cb9\\u6c61\\u8d23\\u4efb\\u4fdd\\u9669\", \"value\": 834}, {\"type\": \"\\u8fdb\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 1058096}, {\"type\": \"\\u6e38\\u8247\\u4fdd\\u9669\", \"value\": 17}, {\"type\": \"\\u96c6\\u88c5\\u7bb1\\u4fdd\\u9669\", \"value\": 13066}, {\"type\": \"\\u51fa\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 48482}, {\"type\": \"\\u8239\\u8236\\u5efa\\u9020\\u9669\", \"value\": 216}, {\"type\": \"\\u8fdc\\u6d0b\\u8239\\u8236\\u9669\", \"value\": 139584}, {\"type\": \"\\u4fdd\\u8d54\\u4fdd\\u9669\", \"value\": 18138}]",
+          "ttl": 86069
+        }
+      },
+      "time": 10,
+      "size": 655
+    }
+  },
+  {
+    "id": "d75b6a64-ed2e-4fca-ac3f-bfe2263bdb58",
+    "timestamp": "2026-06-11T03:11:23.922Z",
+    "method": "GET",
+    "url": "http://ds-api.prod.shie.com.cn/api/v1/stats/redis/key?key=dsv2-90e20d38",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": {
+      "name": "湖南2024"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "access-control-allow-origin": "*",
+        "content-length": "655",
+        "content-type": "application/json",
+        "date": "Thu, 11 Jun 2026 03:11:23 GMT",
+        "server": "uvicorn"
+      },
+      "data": {
+        "code": 0,
+        "msg": "Success",
+        "data": {
+          "next_update": "1781147476",
+          "data": "[{\"type\": \"\\u8239\\u8236\\u6cb9\\u6c61\\u8d23\\u4efb\\u4fdd\\u9669\", \"value\": 834}, {\"type\": \"\\u8fdb\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 1058096}, {\"type\": \"\\u6e38\\u8247\\u4fdd\\u9669\", \"value\": 17}, {\"type\": \"\\u96c6\\u88c5\\u7bb1\\u4fdd\\u9669\", \"value\": 13066}, {\"type\": \"\\u51fa\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 48482}, {\"type\": \"\\u8239\\u8236\\u5efa\\u9020\\u9669\", \"value\": 216}, {\"type\": \"\\u8fdc\\u6d0b\\u8239\\u8236\\u9669\", \"value\": 139584}, {\"type\": \"\\u4fdd\\u8d54\\u4fdd\\u9669\", \"value\": 18138}]",
+          "ttl": 86069
+        }
+      },
+      "time": 10,
+      "size": 655
+    }
+  },
+  {
+    "id": "3f2c1411-d25d-4185-ba90-6136a7adc9fc",
+    "timestamp": "2026-06-11T03:11:23.185Z",
+    "method": "GET",
+    "url": "http://ds-api.prod.shie.com.cn/api/v1/stats/redis/key?key=dsv2-90e20d38",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": {
+      "name": "湖南2024"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "access-control-allow-origin": "*",
+        "content-length": "655",
+        "content-type": "application/json",
+        "date": "Thu, 11 Jun 2026 03:11:22 GMT",
+        "server": "uvicorn"
+      },
+      "data": {
+        "code": 0,
+        "msg": "Success",
+        "data": {
+          "next_update": "1781147476",
+          "data": "[{\"type\": \"\\u8239\\u8236\\u6cb9\\u6c61\\u8d23\\u4efb\\u4fdd\\u9669\", \"value\": 834}, {\"type\": \"\\u8fdb\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 1058096}, {\"type\": \"\\u6e38\\u8247\\u4fdd\\u9669\", \"value\": 17}, {\"type\": \"\\u96c6\\u88c5\\u7bb1\\u4fdd\\u9669\", \"value\": 13066}, {\"type\": \"\\u51fa\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 48482}, {\"type\": \"\\u8239\\u8236\\u5efa\\u9020\\u9669\", \"value\": 216}, {\"type\": \"\\u8fdc\\u6d0b\\u8239\\u8236\\u9669\", \"value\": 139584}, {\"type\": \"\\u4fdd\\u8d54\\u4fdd\\u9669\", \"value\": 18138}]",
+          "ttl": 86070
+        }
+      },
+      "time": 14,
+      "size": 655
+    }
+  },
+  {
+    "id": "81558e49-5ca5-4ef5-b8d4-792a6e51523d",
+    "timestamp": "2026-06-11T03:11:22.494Z",
+    "method": "GET",
+    "url": "http://ds-api.prod.shie.com.cn/api/v1/stats/redis/key?key=dsv2-90e20d38",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": {
+      "name": "湖南2024"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "access-control-allow-origin": "*",
+        "content-length": "655",
+        "content-type": "application/json",
+        "date": "Thu, 11 Jun 2026 03:11:21 GMT",
+        "server": "uvicorn"
+      },
+      "data": {
+        "code": 0,
+        "msg": "Success",
+        "data": {
+          "next_update": "1781147476",
+          "data": "[{\"type\": \"\\u8239\\u8236\\u6cb9\\u6c61\\u8d23\\u4efb\\u4fdd\\u9669\", \"value\": 834}, {\"type\": \"\\u8fdb\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 1058096}, {\"type\": \"\\u6e38\\u8247\\u4fdd\\u9669\", \"value\": 17}, {\"type\": \"\\u96c6\\u88c5\\u7bb1\\u4fdd\\u9669\", \"value\": 13066}, {\"type\": \"\\u51fa\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 48482}, {\"type\": \"\\u8239\\u8236\\u5efa\\u9020\\u9669\", \"value\": 216}, {\"type\": \"\\u8fdc\\u6d0b\\u8239\\u8236\\u9669\", \"value\": 139584}, {\"type\": \"\\u4fdd\\u8d54\\u4fdd\\u9669\", \"value\": 18138}]",
+          "ttl": 86071
+        }
+      },
+      "time": 10,
+      "size": 655
+    }
+  },
+  {
+    "id": "faa4a197-9e28-4c58-8c50-93e0e4830e21",
+    "timestamp": "2026-06-11T03:11:21.710Z",
+    "method": "GET",
+    "url": "http://ds-api.prod.shie.com.cn/api/v1/stats/redis/key?key=dsv2-90e20d38",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": {
+      "name": "湖南2024"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "access-control-allow-origin": "*",
+        "content-length": "655",
+        "content-type": "application/json",
+        "date": "Thu, 11 Jun 2026 03:11:21 GMT",
+        "server": "uvicorn"
+      },
+      "data": {
+        "code": 0,
+        "msg": "Success",
+        "data": {
+          "next_update": "1781147476",
+          "data": "[{\"type\": \"\\u8239\\u8236\\u6cb9\\u6c61\\u8d23\\u4efb\\u4fdd\\u9669\", \"value\": 834}, {\"type\": \"\\u8fdb\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 1058096}, {\"type\": \"\\u6e38\\u8247\\u4fdd\\u9669\", \"value\": 17}, {\"type\": \"\\u96c6\\u88c5\\u7bb1\\u4fdd\\u9669\", \"value\": 13066}, {\"type\": \"\\u51fa\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 48482}, {\"type\": \"\\u8239\\u8236\\u5efa\\u9020\\u9669\", \"value\": 216}, {\"type\": \"\\u8fdc\\u6d0b\\u8239\\u8236\\u9669\", \"value\": 139584}, {\"type\": \"\\u4fdd\\u8d54\\u4fdd\\u9669\", \"value\": 18138}]",
+          "ttl": 86071
+        }
+      },
+      "time": 10,
+      "size": 655
+    }
+  },
+  {
+    "id": "3b07d4d8-6977-4075-8e05-f0fdcfc3366b",
+    "timestamp": "2026-06-11T03:11:16.059Z",
+    "method": "GET",
+    "url": "http://ds-api.prod.shie.com.cn/api/v1/stats/redis/key?key=dsv2-90e20d38",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": {
+      "name": "湖南2024"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "access-control-allow-origin": "*",
+        "content-length": "655",
+        "content-type": "application/json",
+        "date": "Thu, 11 Jun 2026 03:11:15 GMT",
+        "server": "uvicorn"
+      },
+      "data": {
+        "code": 0,
+        "msg": "Success",
+        "data": {
+          "next_update": "1781147476",
+          "data": "[{\"type\": \"\\u8239\\u8236\\u6cb9\\u6c61\\u8d23\\u4efb\\u4fdd\\u9669\", \"value\": 834}, {\"type\": \"\\u8fdb\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 1058096}, {\"type\": \"\\u6e38\\u8247\\u4fdd\\u9669\", \"value\": 17}, {\"type\": \"\\u96c6\\u88c5\\u7bb1\\u4fdd\\u9669\", \"value\": 13066}, {\"type\": \"\\u51fa\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 48482}, {\"type\": \"\\u8239\\u8236\\u5efa\\u9020\\u9669\", \"value\": 216}, {\"type\": \"\\u8fdc\\u6d0b\\u8239\\u8236\\u9669\", \"value\": 139584}, {\"type\": \"\\u4fdd\\u8d54\\u4fdd\\u9669\", \"value\": 18138}]",
+          "ttl": 86077
+        }
+      },
+      "time": 9,
+      "size": 655
+    }
+  },
+  {
+    "id": "0bc077dd-1294-4ad1-841e-5e332ebb3624",
+    "timestamp": "2026-06-11T03:11:14.810Z",
+    "method": "GET",
+    "url": "http://ds-api.prod.shie.com.cn/api/v1/stats/redis/key?key=dsv2-90e20d38",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": {
+      "name": "湖南2024"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "access-control-allow-origin": "*",
+        "content-length": "655",
+        "content-type": "application/json",
+        "date": "Thu, 11 Jun 2026 03:11:14 GMT",
+        "server": "uvicorn"
+      },
+      "data": {
+        "code": 0,
+        "msg": "Success",
+        "data": {
+          "next_update": "1781147476",
+          "data": "[{\"type\": \"\\u8239\\u8236\\u6cb9\\u6c61\\u8d23\\u4efb\\u4fdd\\u9669\", \"value\": 834}, {\"type\": \"\\u8fdb\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 1058096}, {\"type\": \"\\u6e38\\u8247\\u4fdd\\u9669\", \"value\": 17}, {\"type\": \"\\u96c6\\u88c5\\u7bb1\\u4fdd\\u9669\", \"value\": 13066}, {\"type\": \"\\u51fa\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 48482}, {\"type\": \"\\u8239\\u8236\\u5efa\\u9020\\u9669\", \"value\": 216}, {\"type\": \"\\u8fdc\\u6d0b\\u8239\\u8236\\u9669\", \"value\": 139584}, {\"type\": \"\\u4fdd\\u8d54\\u4fdd\\u9669\", \"value\": 18138}]",
+          "ttl": 86078
+        }
+      },
+      "time": 12,
+      "size": 655
+    }
+  },
+  {
+    "id": "87b66feb-4f93-4c47-bc6f-884556b69e7f",
+    "timestamp": "2026-06-11T03:11:13.849Z",
+    "method": "GET",
+    "url": "http://ds-api.prod.shie.com.cn/api/v1/stats/redis/key?key=dsv2-90e20d38",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": {
+      "name": "湖南2024"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "access-control-allow-origin": "*",
+        "content-length": "655",
+        "content-type": "application/json",
+        "date": "Thu, 11 Jun 2026 03:11:13 GMT",
+        "server": "uvicorn"
+      },
+      "data": {
+        "code": 0,
+        "msg": "Success",
+        "data": {
+          "next_update": "1781147476",
+          "data": "[{\"type\": \"\\u8239\\u8236\\u6cb9\\u6c61\\u8d23\\u4efb\\u4fdd\\u9669\", \"value\": 834}, {\"type\": \"\\u8fdb\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 1058096}, {\"type\": \"\\u6e38\\u8247\\u4fdd\\u9669\", \"value\": 17}, {\"type\": \"\\u96c6\\u88c5\\u7bb1\\u4fdd\\u9669\", \"value\": 13066}, {\"type\": \"\\u51fa\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 48482}, {\"type\": \"\\u8239\\u8236\\u5efa\\u9020\\u9669\", \"value\": 216}, {\"type\": \"\\u8fdc\\u6d0b\\u8239\\u8236\\u9669\", \"value\": 139584}, {\"type\": \"\\u4fdd\\u8d54\\u4fdd\\u9669\", \"value\": 18138}]",
+          "ttl": 86079
+        }
+      },
+      "time": 10,
+      "size": 655
+    }
+  },
+  {
+    "id": "5b377a9b-a2cb-44b8-b27b-bfba9cd8d4f5",
+    "timestamp": "2026-06-11T03:11:08.611Z",
+    "method": "GET",
+    "url": "http://ds-api.prod.shie.com.cn/api/v1/stats/redis/key?key=dsv2-90e20d38",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": {
+      "name": "湖南2024"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "access-control-allow-origin": "*",
+        "content-length": "655",
+        "content-type": "application/json",
+        "date": "Thu, 11 Jun 2026 03:11:07 GMT",
+        "server": "uvicorn"
+      },
+      "data": {
+        "code": 0,
+        "msg": "Success",
+        "data": {
+          "next_update": "1781147476",
+          "data": "[{\"type\": \"\\u8239\\u8236\\u6cb9\\u6c61\\u8d23\\u4efb\\u4fdd\\u9669\", \"value\": 834}, {\"type\": \"\\u8fdb\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 1058096}, {\"type\": \"\\u6e38\\u8247\\u4fdd\\u9669\", \"value\": 17}, {\"type\": \"\\u96c6\\u88c5\\u7bb1\\u4fdd\\u9669\", \"value\": 13066}, {\"type\": \"\\u51fa\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 48482}, {\"type\": \"\\u8239\\u8236\\u5efa\\u9020\\u9669\", \"value\": 216}, {\"type\": \"\\u8fdc\\u6d0b\\u8239\\u8236\\u9669\", \"value\": 139584}, {\"type\": \"\\u4fdd\\u8d54\\u4fdd\\u9669\", \"value\": 18138}]",
+          "ttl": 86085
+        }
+      },
+      "time": 11,
+      "size": 655
+    }
+  },
+  {
+    "id": "307b1197-a806-4fb1-96c3-cf41af53e124",
+    "timestamp": "2026-06-11T03:11:07.421Z",
+    "method": "GET",
+    "url": "http://ds-api.prod.shie.com.cn/api/v1/stats/redis/key?key=dsv2-90e20d38",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": {
+      "name": "湖南2024"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "access-control-allow-origin": "*",
+        "content-length": "655",
+        "content-type": "application/json",
+        "date": "Thu, 11 Jun 2026 03:11:06 GMT",
+        "server": "uvicorn"
+      },
+      "data": {
+        "code": 0,
+        "msg": "Success",
+        "data": {
+          "next_update": "1781147476",
+          "data": "[{\"type\": \"\\u8239\\u8236\\u6cb9\\u6c61\\u8d23\\u4efb\\u4fdd\\u9669\", \"value\": 834}, {\"type\": \"\\u8fdb\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 1058096}, {\"type\": \"\\u6e38\\u8247\\u4fdd\\u9669\", \"value\": 17}, {\"type\": \"\\u96c6\\u88c5\\u7bb1\\u4fdd\\u9669\", \"value\": 13066}, {\"type\": \"\\u51fa\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 48482}, {\"type\": \"\\u8239\\u8236\\u5efa\\u9020\\u9669\", \"value\": 216}, {\"type\": \"\\u8fdc\\u6d0b\\u8239\\u8236\\u9669\", \"value\": 139584}, {\"type\": \"\\u4fdd\\u8d54\\u4fdd\\u9669\", \"value\": 18138}]",
+          "ttl": 86086
+        }
+      },
+      "time": 9,
+      "size": 655
+    }
+  },
+  {
+    "id": "e2e3d05b-0ffe-4b6b-8558-8f54a699538e",
+    "timestamp": "2026-06-11T03:11:06.688Z",
+    "method": "GET",
+    "url": "http://ds-api.prod.shie.com.cn/api/v1/stats/redis/key?key=dsv2-90e20d38",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": {
+      "name": "湖南2024"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "access-control-allow-origin": "*",
+        "content-length": "655",
+        "content-type": "application/json",
+        "date": "Thu, 11 Jun 2026 03:11:06 GMT",
+        "server": "uvicorn"
+      },
+      "data": {
+        "code": 0,
+        "msg": "Success",
+        "data": {
+          "next_update": "1781147476",
+          "data": "[{\"type\": \"\\u8239\\u8236\\u6cb9\\u6c61\\u8d23\\u4efb\\u4fdd\\u9669\", \"value\": 834}, {\"type\": \"\\u8fdb\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 1058096}, {\"type\": \"\\u6e38\\u8247\\u4fdd\\u9669\", \"value\": 17}, {\"type\": \"\\u96c6\\u88c5\\u7bb1\\u4fdd\\u9669\", \"value\": 13066}, {\"type\": \"\\u51fa\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 48482}, {\"type\": \"\\u8239\\u8236\\u5efa\\u9020\\u9669\", \"value\": 216}, {\"type\": \"\\u8fdc\\u6d0b\\u8239\\u8236\\u9669\", \"value\": 139584}, {\"type\": \"\\u4fdd\\u8d54\\u4fdd\\u9669\", \"value\": 18138}]",
+          "ttl": 86086
+        }
+      },
+      "time": 10,
+      "size": 655
+    }
+  },
+  {
+    "id": "cb936d48-3644-4714-88c4-5e20ce68019f",
+    "timestamp": "2026-06-11T03:11:06.160Z",
+    "method": "GET",
+    "url": "http://ds-api.prod.shie.com.cn/api/v1/stats/redis/key?key=dsv2-90e20d38",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": {
+      "name": "湖南2024"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "access-control-allow-origin": "*",
+        "content-length": "655",
+        "content-type": "application/json",
+        "date": "Thu, 11 Jun 2026 03:11:05 GMT",
+        "server": "uvicorn"
+      },
+      "data": {
+        "code": 0,
+        "msg": "Success",
+        "data": {
+          "next_update": "1781147476",
+          "data": "[{\"type\": \"\\u8239\\u8236\\u6cb9\\u6c61\\u8d23\\u4efb\\u4fdd\\u9669\", \"value\": 834}, {\"type\": \"\\u8fdb\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 1058096}, {\"type\": \"\\u6e38\\u8247\\u4fdd\\u9669\", \"value\": 17}, {\"type\": \"\\u96c6\\u88c5\\u7bb1\\u4fdd\\u9669\", \"value\": 13066}, {\"type\": \"\\u51fa\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 48482}, {\"type\": \"\\u8239\\u8236\\u5efa\\u9020\\u9669\", \"value\": 216}, {\"type\": \"\\u8fdc\\u6d0b\\u8239\\u8236\\u9669\", \"value\": 139584}, {\"type\": \"\\u4fdd\\u8d54\\u4fdd\\u9669\", \"value\": 18138}]",
+          "ttl": 86087
+        }
+      },
+      "time": 16,
+      "size": 655
+    }
+  },
+  {
+    "id": "106baf9e-a726-40a9-ac70-9a8de3eaf515",
+    "timestamp": "2026-06-11T03:11:05.529Z",
+    "method": "GET",
+    "url": "http://ds-api.prod.shie.com.cn/api/v1/stats/redis/key?key=dsv2-90e20d38",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": {
+      "name": "湖南2024"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "access-control-allow-origin": "*",
+        "content-length": "655",
+        "content-type": "application/json",
+        "date": "Thu, 11 Jun 2026 03:11:05 GMT",
+        "server": "uvicorn"
+      },
+      "data": {
+        "code": 0,
+        "msg": "Success",
+        "data": {
+          "next_update": "1781147476",
+          "data": "[{\"type\": \"\\u8239\\u8236\\u6cb9\\u6c61\\u8d23\\u4efb\\u4fdd\\u9669\", \"value\": 834}, {\"type\": \"\\u8fdb\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 1058096}, {\"type\": \"\\u6e38\\u8247\\u4fdd\\u9669\", \"value\": 17}, {\"type\": \"\\u96c6\\u88c5\\u7bb1\\u4fdd\\u9669\", \"value\": 13066}, {\"type\": \"\\u51fa\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 48482}, {\"type\": \"\\u8239\\u8236\\u5efa\\u9020\\u9669\", \"value\": 216}, {\"type\": \"\\u8fdc\\u6d0b\\u8239\\u8236\\u9669\", \"value\": 139584}, {\"type\": \"\\u4fdd\\u8d54\\u4fdd\\u9669\", \"value\": 18138}]",
+          "ttl": 86088
+        }
+      },
+      "time": 10,
+      "size": 655
+    }
+  },
+  {
+    "id": "092540aa-6739-4d74-9038-a588fdce7df7",
+    "timestamp": "2026-06-11T03:11:04.911Z",
+    "method": "GET",
+    "url": "http://ds-api.prod.shie.com.cn/api/v1/stats/redis/key?key=dsv2-90e20d38",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": {
+      "name": "湖南2024"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "access-control-allow-origin": "*",
+        "content-length": "655",
+        "content-type": "application/json",
+        "date": "Thu, 11 Jun 2026 03:11:04 GMT",
+        "server": "uvicorn"
+      },
+      "data": {
+        "code": 0,
+        "msg": "Success",
+        "data": {
+          "next_update": "1781147476",
+          "data": "[{\"type\": \"\\u8239\\u8236\\u6cb9\\u6c61\\u8d23\\u4efb\\u4fdd\\u9669\", \"value\": 834}, {\"type\": \"\\u8fdb\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 1058096}, {\"type\": \"\\u6e38\\u8247\\u4fdd\\u9669\", \"value\": 17}, {\"type\": \"\\u96c6\\u88c5\\u7bb1\\u4fdd\\u9669\", \"value\": 13066}, {\"type\": \"\\u51fa\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 48482}, {\"type\": \"\\u8239\\u8236\\u5efa\\u9020\\u9669\", \"value\": 216}, {\"type\": \"\\u8fdc\\u6d0b\\u8239\\u8236\\u9669\", \"value\": 139584}, {\"type\": \"\\u4fdd\\u8d54\\u4fdd\\u9669\", \"value\": 18138}]",
+          "ttl": 86088
+        }
+      },
+      "time": 11,
+      "size": 655
+    }
+  },
+  {
+    "id": "59954908-f64b-4983-8fe4-eeadaeb59901",
+    "timestamp": "2026-06-11T03:11:04.241Z",
+    "method": "GET",
+    "url": "http://ds-api.prod.shie.com.cn/api/v1/stats/redis/key?key=dsv2-90e20d38",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": {
+      "name": "湖南2024"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "access-control-allow-origin": "*",
+        "content-length": "655",
+        "content-type": "application/json",
+        "date": "Thu, 11 Jun 2026 03:11:03 GMT",
+        "server": "uvicorn"
+      },
+      "data": {
+        "code": 0,
+        "msg": "Success",
+        "data": {
+          "next_update": "1781147476",
+          "data": "[{\"type\": \"\\u8239\\u8236\\u6cb9\\u6c61\\u8d23\\u4efb\\u4fdd\\u9669\", \"value\": 834}, {\"type\": \"\\u8fdb\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 1058096}, {\"type\": \"\\u6e38\\u8247\\u4fdd\\u9669\", \"value\": 17}, {\"type\": \"\\u96c6\\u88c5\\u7bb1\\u4fdd\\u9669\", \"value\": 13066}, {\"type\": \"\\u51fa\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 48482}, {\"type\": \"\\u8239\\u8236\\u5efa\\u9020\\u9669\", \"value\": 216}, {\"type\": \"\\u8fdc\\u6d0b\\u8239\\u8236\\u9669\", \"value\": 139584}, {\"type\": \"\\u4fdd\\u8d54\\u4fdd\\u9669\", \"value\": 18138}]",
+          "ttl": 86089
+        }
+      },
+      "time": 9,
+      "size": 655
+    }
+  },
+  {
+    "id": "6cc6d771-cc85-4a46-9e51-fcdbdca85dfd",
+    "timestamp": "2026-06-11T03:11:03.670Z",
+    "method": "GET",
+    "url": "http://ds-api.prod.shie.com.cn/api/v1/stats/redis/key?key=dsv2-90e20d38",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": {
+      "name": "湖南2024"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "access-control-allow-origin": "*",
+        "content-length": "655",
+        "content-type": "application/json",
+        "date": "Thu, 11 Jun 2026 03:11:03 GMT",
+        "server": "uvicorn"
+      },
+      "data": {
+        "code": 0,
+        "msg": "Success",
+        "data": {
+          "next_update": "1781147476",
+          "data": "[{\"type\": \"\\u8239\\u8236\\u6cb9\\u6c61\\u8d23\\u4efb\\u4fdd\\u9669\", \"value\": 834}, {\"type\": \"\\u8fdb\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 1058096}, {\"type\": \"\\u6e38\\u8247\\u4fdd\\u9669\", \"value\": 17}, {\"type\": \"\\u96c6\\u88c5\\u7bb1\\u4fdd\\u9669\", \"value\": 13066}, {\"type\": \"\\u51fa\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 48482}, {\"type\": \"\\u8239\\u8236\\u5efa\\u9020\\u9669\", \"value\": 216}, {\"type\": \"\\u8fdc\\u6d0b\\u8239\\u8236\\u9669\", \"value\": 139584}, {\"type\": \"\\u4fdd\\u8d54\\u4fdd\\u9669\", \"value\": 18138}]",
+          "ttl": 86089
+        }
+      },
+      "time": 12,
+      "size": 655
+    }
+  },
+  {
+    "id": "bda99b5d-2658-411e-9aa5-4702c97ada5e",
+    "timestamp": "2026-06-11T03:11:03.088Z",
+    "method": "GET",
+    "url": "http://ds-api.prod.shie.com.cn/api/v1/stats/redis/key?key=dsv2-90e20d38",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": {
+      "name": "湖南2024"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "access-control-allow-origin": "*",
+        "content-length": "655",
+        "content-type": "application/json",
+        "date": "Thu, 11 Jun 2026 03:11:02 GMT",
+        "server": "uvicorn"
+      },
+      "data": {
+        "code": 0,
+        "msg": "Success",
+        "data": {
+          "next_update": "1781147476",
+          "data": "[{\"type\": \"\\u8239\\u8236\\u6cb9\\u6c61\\u8d23\\u4efb\\u4fdd\\u9669\", \"value\": 834}, {\"type\": \"\\u8fdb\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 1058096}, {\"type\": \"\\u6e38\\u8247\\u4fdd\\u9669\", \"value\": 17}, {\"type\": \"\\u96c6\\u88c5\\u7bb1\\u4fdd\\u9669\", \"value\": 13066}, {\"type\": \"\\u51fa\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 48482}, {\"type\": \"\\u8239\\u8236\\u5efa\\u9020\\u9669\", \"value\": 216}, {\"type\": \"\\u8fdc\\u6d0b\\u8239\\u8236\\u9669\", \"value\": 139584}, {\"type\": \"\\u4fdd\\u8d54\\u4fdd\\u9669\", \"value\": 18138}]",
+          "ttl": 86090
+        }
+      },
+      "time": 9,
+      "size": 655
+    }
+  },
+  {
+    "id": "161329a4-17ad-41f8-986a-83ca5a91cd24",
+    "timestamp": "2026-06-11T03:11:02.444Z",
+    "method": "GET",
+    "url": "http://ds-api.prod.shie.com.cn/api/v1/stats/redis/key?key=dsv2-90e20d38",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": {
+      "name": "湖南2024"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "access-control-allow-origin": "*",
+        "content-length": "655",
+        "content-type": "application/json",
+        "date": "Thu, 11 Jun 2026 03:11:00 GMT",
+        "server": "uvicorn"
+      },
+      "data": {
+        "code": 0,
+        "msg": "Success",
+        "data": {
+          "next_update": "1781147476",
+          "data": "[{\"type\": \"\\u8239\\u8236\\u6cb9\\u6c61\\u8d23\\u4efb\\u4fdd\\u9669\", \"value\": 834}, {\"type\": \"\\u8fdb\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 1058096}, {\"type\": \"\\u6e38\\u8247\\u4fdd\\u9669\", \"value\": 17}, {\"type\": \"\\u96c6\\u88c5\\u7bb1\\u4fdd\\u9669\", \"value\": 13066}, {\"type\": \"\\u51fa\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 48482}, {\"type\": \"\\u8239\\u8236\\u5efa\\u9020\\u9669\", \"value\": 216}, {\"type\": \"\\u8fdc\\u6d0b\\u8239\\u8236\\u9669\", \"value\": 139584}, {\"type\": \"\\u4fdd\\u8d54\\u4fdd\\u9669\", \"value\": 18138}]",
+          "ttl": 86091
+        }
+      },
+      "time": 51,
+      "size": 655
+    }
+  },
+  {
+    "id": "331a2a9e-0566-43c4-8199-61de45d5cae7",
+    "timestamp": "2026-06-11T03:11:01.522Z",
+    "method": "GET",
+    "url": "http://ds-api.prod.shie.com.cn/api/v1/stats/redis/key?key=dsv2-90e20d38",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": {
+      "name": "湖南2024"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "access-control-allow-origin": "*",
+        "content-length": "655",
+        "content-type": "application/json",
+        "date": "Thu, 11 Jun 2026 03:11:01 GMT",
+        "server": "uvicorn"
+      },
+      "data": {
+        "code": 0,
+        "msg": "Success",
+        "data": {
+          "next_update": "1781147476",
+          "data": "[{\"type\": \"\\u8239\\u8236\\u6cb9\\u6c61\\u8d23\\u4efb\\u4fdd\\u9669\", \"value\": 834}, {\"type\": \"\\u8fdb\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 1058096}, {\"type\": \"\\u6e38\\u8247\\u4fdd\\u9669\", \"value\": 17}, {\"type\": \"\\u96c6\\u88c5\\u7bb1\\u4fdd\\u9669\", \"value\": 13066}, {\"type\": \"\\u51fa\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 48482}, {\"type\": \"\\u8239\\u8236\\u5efa\\u9020\\u9669\", \"value\": 216}, {\"type\": \"\\u8fdc\\u6d0b\\u8239\\u8236\\u9669\", \"value\": 139584}, {\"type\": \"\\u4fdd\\u8d54\\u4fdd\\u9669\", \"value\": 18138}]",
+          "ttl": 86092
+        }
+      },
+      "time": 13,
+      "size": 655
+    }
+  },
+  {
+    "id": "63321509-6c08-4dec-acb0-a5c079355a71",
+    "timestamp": "2026-06-11T03:11:00.880Z",
+    "method": "GET",
+    "url": "http://ds-api.prod.shie.com.cn/api/v1/stats/redis/key?key=dsv2-90e20d38",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": {
+      "name": "湖南2024"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "access-control-allow-origin": "*",
+        "content-length": "655",
+        "content-type": "application/json",
+        "date": "Thu, 11 Jun 2026 03:11:00 GMT",
+        "server": "uvicorn"
+      },
+      "data": {
+        "code": 0,
+        "msg": "Success",
+        "data": {
+          "next_update": "1781147476",
+          "data": "[{\"type\": \"\\u8239\\u8236\\u6cb9\\u6c61\\u8d23\\u4efb\\u4fdd\\u9669\", \"value\": 834}, {\"type\": \"\\u8fdb\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 1058096}, {\"type\": \"\\u6e38\\u8247\\u4fdd\\u9669\", \"value\": 17}, {\"type\": \"\\u96c6\\u88c5\\u7bb1\\u4fdd\\u9669\", \"value\": 13066}, {\"type\": \"\\u51fa\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 48482}, {\"type\": \"\\u8239\\u8236\\u5efa\\u9020\\u9669\", \"value\": 216}, {\"type\": \"\\u8fdc\\u6d0b\\u8239\\u8236\\u9669\", \"value\": 139584}, {\"type\": \"\\u4fdd\\u8d54\\u4fdd\\u9669\", \"value\": 18138}]",
+          "ttl": 86092
+        }
+      },
+      "time": 11,
+      "size": 655
+    }
+  },
+  {
+    "id": "95e2ef16-c503-4a40-ad8c-2935867676e4",
+    "timestamp": "2026-06-11T03:10:59.103Z",
+    "method": "GET",
+    "url": "http://ds-api.prod.shie.com.cn/api/v1/stats/redis/key?key=dsv2-90e20d38",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": {
+      "name": "湖南2024"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "access-control-allow-origin": "*",
+        "content-length": "655",
+        "content-type": "application/json",
+        "date": "Thu, 11 Jun 2026 03:10:59 GMT",
+        "server": "uvicorn"
+      },
+      "data": {
+        "code": 0,
+        "msg": "Success",
+        "data": {
+          "next_update": "1781147476",
+          "data": "[{\"type\": \"\\u8239\\u8236\\u6cb9\\u6c61\\u8d23\\u4efb\\u4fdd\\u9669\", \"value\": 834}, {\"type\": \"\\u8fdb\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 1058096}, {\"type\": \"\\u6e38\\u8247\\u4fdd\\u9669\", \"value\": 17}, {\"type\": \"\\u96c6\\u88c5\\u7bb1\\u4fdd\\u9669\", \"value\": 13066}, {\"type\": \"\\u51fa\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 48482}, {\"type\": \"\\u8239\\u8236\\u5efa\\u9020\\u9669\", \"value\": 216}, {\"type\": \"\\u8fdc\\u6d0b\\u8239\\u8236\\u9669\", \"value\": 139584}, {\"type\": \"\\u4fdd\\u8d54\\u4fdd\\u9669\", \"value\": 18138}]",
+          "ttl": 86094
+        }
+      },
+      "time": 10,
+      "size": 655
+    }
+  },
+  {
+    "id": "3701ae54-1514-418a-b4c7-f5bbc49301c2",
+    "timestamp": "2026-06-11T03:10:58.238Z",
+    "method": "GET",
+    "url": "http://ds-api.prod.shie.com.cn/api/v1/stats/redis/key?key=dsv2-90e20d38",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": {
+      "name": "湖南2024"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "access-control-allow-origin": "*",
+        "content-length": "655",
+        "content-type": "application/json",
+        "date": "Thu, 11 Jun 2026 03:10:58 GMT",
+        "server": "uvicorn"
+      },
+      "data": {
+        "code": 0,
+        "msg": "Success",
+        "data": {
+          "next_update": "1781147476",
+          "data": "[{\"type\": \"\\u8239\\u8236\\u6cb9\\u6c61\\u8d23\\u4efb\\u4fdd\\u9669\", \"value\": 834}, {\"type\": \"\\u8fdb\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 1058096}, {\"type\": \"\\u6e38\\u8247\\u4fdd\\u9669\", \"value\": 17}, {\"type\": \"\\u96c6\\u88c5\\u7bb1\\u4fdd\\u9669\", \"value\": 13066}, {\"type\": \"\\u51fa\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 48482}, {\"type\": \"\\u8239\\u8236\\u5efa\\u9020\\u9669\", \"value\": 216}, {\"type\": \"\\u8fdc\\u6d0b\\u8239\\u8236\\u9669\", \"value\": 139584}, {\"type\": \"\\u4fdd\\u8d54\\u4fdd\\u9669\", \"value\": 18138}]",
+          "ttl": 86095
+        }
+      },
+      "time": 48,
+      "size": 655
+    }
+  },
+  {
+    "id": "66902bd3-5fe7-4f26-844a-072e38d7c567",
+    "timestamp": "2026-06-11T03:10:57.046Z",
+    "method": "GET",
+    "url": "http://ds-api.prod.shie.com.cn/api/v1/stats/redis/key?key=dsv2-90e20d38",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": {
+      "name": "湖南2024"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "access-control-allow-origin": "*",
+        "content-length": "655",
+        "content-type": "application/json",
+        "date": "Thu, 11 Jun 2026 03:10:56 GMT",
+        "server": "uvicorn"
+      },
+      "data": {
+        "code": 0,
+        "msg": "Success",
+        "data": {
+          "next_update": "1781147476",
+          "data": "[{\"type\": \"\\u8239\\u8236\\u6cb9\\u6c61\\u8d23\\u4efb\\u4fdd\\u9669\", \"value\": 834}, {\"type\": \"\\u8fdb\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 1058096}, {\"type\": \"\\u6e38\\u8247\\u4fdd\\u9669\", \"value\": 17}, {\"type\": \"\\u96c6\\u88c5\\u7bb1\\u4fdd\\u9669\", \"value\": 13066}, {\"type\": \"\\u51fa\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 48482}, {\"type\": \"\\u8239\\u8236\\u5efa\\u9020\\u9669\", \"value\": 216}, {\"type\": \"\\u8fdc\\u6d0b\\u8239\\u8236\\u9669\", \"value\": 139584}, {\"type\": \"\\u4fdd\\u8d54\\u4fdd\\u9669\", \"value\": 18138}]",
+          "ttl": 86096
+        }
+      },
+      "time": 9,
+      "size": 655
+    }
+  },
+  {
+    "id": "afb3dfc4-bdc0-4aed-9e8c-663e17b7a96b",
+    "timestamp": "2026-06-11T03:10:56.203Z",
+    "method": "GET",
+    "url": "http://ds-api.prod.shie.com.cn/api/v1/stats/redis/key?key=dsv2-90e20d38",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": {
+      "name": "湖南2024"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "access-control-allow-origin": "*",
+        "content-length": "655",
+        "content-type": "application/json",
+        "date": "Thu, 11 Jun 2026 03:10:55 GMT",
+        "server": "uvicorn"
+      },
+      "data": {
+        "code": 0,
+        "msg": "Success",
+        "data": {
+          "next_update": "1781147476",
+          "data": "[{\"type\": \"\\u8239\\u8236\\u6cb9\\u6c61\\u8d23\\u4efb\\u4fdd\\u9669\", \"value\": 834}, {\"type\": \"\\u8fdb\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 1058096}, {\"type\": \"\\u6e38\\u8247\\u4fdd\\u9669\", \"value\": 17}, {\"type\": \"\\u96c6\\u88c5\\u7bb1\\u4fdd\\u9669\", \"value\": 13066}, {\"type\": \"\\u51fa\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 48482}, {\"type\": \"\\u8239\\u8236\\u5efa\\u9020\\u9669\", \"value\": 216}, {\"type\": \"\\u8fdc\\u6d0b\\u8239\\u8236\\u9669\", \"value\": 139584}, {\"type\": \"\\u4fdd\\u8d54\\u4fdd\\u9669\", \"value\": 18138}]",
+          "ttl": 86097
+        }
+      },
+      "time": 10,
+      "size": 655
+    }
+  },
+  {
+    "id": "df9eadc7-028c-4072-990b-83288f508050",
+    "timestamp": "2026-06-11T03:10:54.907Z",
+    "method": "GET",
+    "url": "http://ds-api.prod.shie.com.cn/api/v1/stats/redis/key?key=dsv2-90e20d38",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": {
+      "name": "湖南2024"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "access-control-allow-origin": "*",
+        "content-length": "655",
+        "content-type": "application/json",
+        "date": "Thu, 11 Jun 2026 03:10:54 GMT",
+        "server": "uvicorn"
+      },
+      "data": {
+        "code": 0,
+        "msg": "Success",
+        "data": {
+          "next_update": "1781147476",
+          "data": "[{\"type\": \"\\u8239\\u8236\\u6cb9\\u6c61\\u8d23\\u4efb\\u4fdd\\u9669\", \"value\": 834}, {\"type\": \"\\u8fdb\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 1058096}, {\"type\": \"\\u6e38\\u8247\\u4fdd\\u9669\", \"value\": 17}, {\"type\": \"\\u96c6\\u88c5\\u7bb1\\u4fdd\\u9669\", \"value\": 13066}, {\"type\": \"\\u51fa\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 48482}, {\"type\": \"\\u8239\\u8236\\u5efa\\u9020\\u9669\", \"value\": 216}, {\"type\": \"\\u8fdc\\u6d0b\\u8239\\u8236\\u9669\", \"value\": 139584}, {\"type\": \"\\u4fdd\\u8d54\\u4fdd\\u9669\", \"value\": 18138}]",
+          "ttl": 86098
+        }
+      },
+      "time": 49,
+      "size": 655
+    }
+  },
+  {
+    "id": "0ad7a528-5679-416b-a9b4-36f213a86be7",
+    "timestamp": "2026-06-11T03:10:53.941Z",
+    "method": "GET",
+    "url": "http://ds-api.prod.shie.com.cn/api/v1/stats/redis/key?key=dsv2-90e20d38",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": {
+      "name": "湖南2024"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "access-control-allow-origin": "*",
+        "content-length": "655",
+        "content-type": "application/json",
+        "date": "Thu, 11 Jun 2026 03:10:53 GMT",
+        "server": "uvicorn"
+      },
+      "data": {
+        "code": 0,
+        "msg": "Success",
+        "data": {
+          "next_update": "1781147476",
+          "data": "[{\"type\": \"\\u8239\\u8236\\u6cb9\\u6c61\\u8d23\\u4efb\\u4fdd\\u9669\", \"value\": 834}, {\"type\": \"\\u8fdb\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 1058096}, {\"type\": \"\\u6e38\\u8247\\u4fdd\\u9669\", \"value\": 17}, {\"type\": \"\\u96c6\\u88c5\\u7bb1\\u4fdd\\u9669\", \"value\": 13066}, {\"type\": \"\\u51fa\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 48482}, {\"type\": \"\\u8239\\u8236\\u5efa\\u9020\\u9669\", \"value\": 216}, {\"type\": \"\\u8fdc\\u6d0b\\u8239\\u8236\\u9669\", \"value\": 139584}, {\"type\": \"\\u4fdd\\u8d54\\u4fdd\\u9669\", \"value\": 18138}]",
+          "ttl": 86099
+        }
+      },
+      "time": 8,
+      "size": 655
+    }
+  },
+  {
+    "id": "51da8697-dd0e-4d07-93a4-e59fc4f0857f",
+    "timestamp": "2026-06-11T03:10:53.153Z",
+    "method": "GET",
+    "url": "http://ds-api.prod.shie.com.cn/api/v1/stats/redis/key?key=dsv2-90e20d38",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": {
+      "name": "湖南2024"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "access-control-allow-origin": "*",
+        "content-length": "655",
+        "content-type": "application/json",
+        "date": "Thu, 11 Jun 2026 03:10:52 GMT",
+        "server": "uvicorn"
+      },
+      "data": {
+        "code": 0,
+        "msg": "Success",
+        "data": {
+          "next_update": "1781147476",
+          "data": "[{\"type\": \"\\u8239\\u8236\\u6cb9\\u6c61\\u8d23\\u4efb\\u4fdd\\u9669\", \"value\": 834}, {\"type\": \"\\u8fdb\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 1058096}, {\"type\": \"\\u6e38\\u8247\\u4fdd\\u9669\", \"value\": 17}, {\"type\": \"\\u96c6\\u88c5\\u7bb1\\u4fdd\\u9669\", \"value\": 13066}, {\"type\": \"\\u51fa\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 48482}, {\"type\": \"\\u8239\\u8236\\u5efa\\u9020\\u9669\", \"value\": 216}, {\"type\": \"\\u8fdc\\u6d0b\\u8239\\u8236\\u9669\", \"value\": 139584}, {\"type\": \"\\u4fdd\\u8d54\\u4fdd\\u9669\", \"value\": 18138}]",
+          "ttl": 86100
+        }
+      },
+      "time": 9,
+      "size": 655
+    }
+  },
+  {
+    "id": "1c257ea3-e633-4449-9885-8b8623f083d0",
+    "timestamp": "2026-06-11T03:10:52.564Z",
+    "method": "GET",
+    "url": "http://ds-api.prod.shie.com.cn/api/v1/stats/redis/key?key=dsv2-90e20d38",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": {
+      "name": "湖南2024"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "access-control-allow-origin": "*",
+        "content-length": "655",
+        "content-type": "application/json",
+        "date": "Thu, 11 Jun 2026 03:10:51 GMT",
+        "server": "uvicorn"
+      },
+      "data": {
+        "code": 0,
+        "msg": "Success",
+        "data": {
+          "next_update": "1781147476",
+          "data": "[{\"type\": \"\\u8239\\u8236\\u6cb9\\u6c61\\u8d23\\u4efb\\u4fdd\\u9669\", \"value\": 834}, {\"type\": \"\\u8fdb\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 1058096}, {\"type\": \"\\u6e38\\u8247\\u4fdd\\u9669\", \"value\": 17}, {\"type\": \"\\u96c6\\u88c5\\u7bb1\\u4fdd\\u9669\", \"value\": 13066}, {\"type\": \"\\u51fa\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 48482}, {\"type\": \"\\u8239\\u8236\\u5efa\\u9020\\u9669\", \"value\": 216}, {\"type\": \"\\u8fdc\\u6d0b\\u8239\\u8236\\u9669\", \"value\": 139584}, {\"type\": \"\\u4fdd\\u8d54\\u4fdd\\u9669\", \"value\": 18138}]",
+          "ttl": 86101
+        }
+      },
+      "time": 10,
+      "size": 655
+    }
+  },
+  {
+    "id": "db5377e4-b101-43a2-a5f0-42497be1f26f",
+    "timestamp": "2026-06-11T03:10:51.900Z",
+    "method": "GET",
+    "url": "http://ds-api.prod.shie.com.cn/api/v1/stats/redis/key?key=dsv2-90e20d38",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": {
+      "name": "湖南2024"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "access-control-allow-origin": "*",
+        "content-length": "655",
+        "content-type": "application/json",
+        "date": "Thu, 11 Jun 2026 03:10:51 GMT",
+        "server": "uvicorn"
+      },
+      "data": {
+        "code": 0,
+        "msg": "Success",
+        "data": {
+          "next_update": "1781147476",
+          "data": "[{\"type\": \"\\u8239\\u8236\\u6cb9\\u6c61\\u8d23\\u4efb\\u4fdd\\u9669\", \"value\": 834}, {\"type\": \"\\u8fdb\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 1058096}, {\"type\": \"\\u6e38\\u8247\\u4fdd\\u9669\", \"value\": 17}, {\"type\": \"\\u96c6\\u88c5\\u7bb1\\u4fdd\\u9669\", \"value\": 13066}, {\"type\": \"\\u51fa\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 48482}, {\"type\": \"\\u8239\\u8236\\u5efa\\u9020\\u9669\", \"value\": 216}, {\"type\": \"\\u8fdc\\u6d0b\\u8239\\u8236\\u9669\", \"value\": 139584}, {\"type\": \"\\u4fdd\\u8d54\\u4fdd\\u9669\", \"value\": 18138}]",
+          "ttl": 86101
+        }
+      },
+      "time": 9,
+      "size": 655
+    }
+  },
+  {
+    "id": "939a8726-7686-46f4-a4fd-4d6045784cf6",
+    "timestamp": "2026-06-11T03:10:51.265Z",
+    "method": "GET",
+    "url": "http://ds-api.prod.shie.com.cn/api/v1/stats/redis/key?key=dsv2-90e20d38",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": {
+      "name": "湖南2024"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "access-control-allow-origin": "*",
+        "content-length": "655",
+        "content-type": "application/json",
+        "date": "Thu, 11 Jun 2026 03:10:51 GMT",
+        "server": "uvicorn"
+      },
+      "data": {
+        "code": 0,
+        "msg": "Success",
+        "data": {
+          "next_update": "1781147476",
+          "data": "[{\"type\": \"\\u8239\\u8236\\u6cb9\\u6c61\\u8d23\\u4efb\\u4fdd\\u9669\", \"value\": 834}, {\"type\": \"\\u8fdb\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 1058096}, {\"type\": \"\\u6e38\\u8247\\u4fdd\\u9669\", \"value\": 17}, {\"type\": \"\\u96c6\\u88c5\\u7bb1\\u4fdd\\u9669\", \"value\": 13066}, {\"type\": \"\\u51fa\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 48482}, {\"type\": \"\\u8239\\u8236\\u5efa\\u9020\\u9669\", \"value\": 216}, {\"type\": \"\\u8fdc\\u6d0b\\u8239\\u8236\\u9669\", \"value\": 139584}, {\"type\": \"\\u4fdd\\u8d54\\u4fdd\\u9669\", \"value\": 18138}]",
+          "ttl": 86102
+        }
+      },
+      "time": 10,
+      "size": 655
+    }
+  },
+  {
+    "id": "10c5d4ef-ca57-44c7-bfe7-20d2e1e6382a",
+    "timestamp": "2026-06-11T03:10:50.559Z",
+    "method": "GET",
+    "url": "http://ds-api.prod.shie.com.cn/api/v1/stats/redis/key?key=dsv2-90e20d38",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": {
+      "name": "湖南2024"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "access-control-allow-origin": "*",
+        "content-length": "655",
+        "content-type": "application/json",
+        "date": "Thu, 11 Jun 2026 03:10:49 GMT",
+        "server": "uvicorn"
+      },
+      "data": {
+        "code": 0,
+        "msg": "Success",
+        "data": {
+          "next_update": "1781147476",
+          "data": "[{\"type\": \"\\u8239\\u8236\\u6cb9\\u6c61\\u8d23\\u4efb\\u4fdd\\u9669\", \"value\": 834}, {\"type\": \"\\u8fdb\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 1058096}, {\"type\": \"\\u6e38\\u8247\\u4fdd\\u9669\", \"value\": 17}, {\"type\": \"\\u96c6\\u88c5\\u7bb1\\u4fdd\\u9669\", \"value\": 13066}, {\"type\": \"\\u51fa\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 48482}, {\"type\": \"\\u8239\\u8236\\u5efa\\u9020\\u9669\", \"value\": 216}, {\"type\": \"\\u8fdc\\u6d0b\\u8239\\u8236\\u9669\", \"value\": 139584}, {\"type\": \"\\u4fdd\\u8d54\\u4fdd\\u9669\", \"value\": 18138}]",
+          "ttl": 86103
+        }
+      },
+      "time": 10,
+      "size": 655
+    }
+  },
+  {
+    "id": "bd71c0f4-b6d4-4c84-8868-c8517febe2ef",
+    "timestamp": "2026-06-11T03:10:49.667Z",
+    "method": "GET",
+    "url": "http://ds-api.prod.shie.com.cn/api/v1/stats/redis/key?key=dsv2-90e20d38",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": {
+      "name": "湖南2024"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "access-control-allow-origin": "*",
+        "content-length": "655",
+        "content-type": "application/json",
+        "date": "Thu, 11 Jun 2026 03:10:48 GMT",
+        "server": "uvicorn"
+      },
+      "data": {
+        "code": 0,
+        "msg": "Success",
+        "data": {
+          "next_update": "1781147476",
+          "data": "[{\"type\": \"\\u8239\\u8236\\u6cb9\\u6c61\\u8d23\\u4efb\\u4fdd\\u9669\", \"value\": 834}, {\"type\": \"\\u8fdb\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 1058096}, {\"type\": \"\\u6e38\\u8247\\u4fdd\\u9669\", \"value\": 17}, {\"type\": \"\\u96c6\\u88c5\\u7bb1\\u4fdd\\u9669\", \"value\": 13066}, {\"type\": \"\\u51fa\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 48482}, {\"type\": \"\\u8239\\u8236\\u5efa\\u9020\\u9669\", \"value\": 216}, {\"type\": \"\\u8fdc\\u6d0b\\u8239\\u8236\\u9669\", \"value\": 139584}, {\"type\": \"\\u4fdd\\u8d54\\u4fdd\\u9669\", \"value\": 18138}]",
+          "ttl": 86103
+        }
+      },
+      "time": 12,
+      "size": 655
+    }
+  },
+  {
+    "id": "8b5273a4-8ae4-4aba-9444-e1b819c7f754",
+    "timestamp": "2026-06-11T03:10:47.383Z",
+    "method": "GET",
+    "url": "http://ds-api.prod.shie.com.cn/api/v1/stats/redis/key?key=dsv2-90e20d38",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": {
+      "name": "湖南2024"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "access-control-allow-origin": "*",
+        "content-length": "655",
+        "content-type": "application/json",
+        "date": "Thu, 11 Jun 2026 03:10:46 GMT",
+        "server": "uvicorn"
+      },
+      "data": {
+        "code": 0,
+        "msg": "Success",
+        "data": {
+          "next_update": "1781147476",
+          "data": "[{\"type\": \"\\u8239\\u8236\\u6cb9\\u6c61\\u8d23\\u4efb\\u4fdd\\u9669\", \"value\": 834}, {\"type\": \"\\u8fdb\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 1058096}, {\"type\": \"\\u6e38\\u8247\\u4fdd\\u9669\", \"value\": 17}, {\"type\": \"\\u96c6\\u88c5\\u7bb1\\u4fdd\\u9669\", \"value\": 13066}, {\"type\": \"\\u51fa\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 48482}, {\"type\": \"\\u8239\\u8236\\u5efa\\u9020\\u9669\", \"value\": 216}, {\"type\": \"\\u8fdc\\u6d0b\\u8239\\u8236\\u9669\", \"value\": 139584}, {\"type\": \"\\u4fdd\\u8d54\\u4fdd\\u9669\", \"value\": 18138}]",
+          "ttl": 86106
+        }
+      },
+      "time": 10,
+      "size": 655
+    }
+  },
+  {
+    "id": "d119a4cd-aeeb-4e0a-8323-68194a69db36",
+    "timestamp": "2026-06-11T03:07:27.634Z",
+    "method": "GET",
+    "url": "http://ds-api.prod.shie.com.cn/api/v1/stats/redis/key?key=dsv2-90e20d38",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": {
+      "name": "湖南2024"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "access-control-allow-origin": "*",
+        "content-length": "655",
+        "content-type": "application/json",
+        "date": "Thu, 11 Jun 2026 03:07:27 GMT",
+        "server": "uvicorn"
+      },
+      "data": {
+        "code": 0,
+        "msg": "Success",
+        "data": {
+          "next_update": "1781147476",
+          "data": "[{\"type\": \"\\u8239\\u8236\\u6cb9\\u6c61\\u8d23\\u4efb\\u4fdd\\u9669\", \"value\": 834}, {\"type\": \"\\u8fdb\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 1058096}, {\"type\": \"\\u6e38\\u8247\\u4fdd\\u9669\", \"value\": 17}, {\"type\": \"\\u96c6\\u88c5\\u7bb1\\u4fdd\\u9669\", \"value\": 13066}, {\"type\": \"\\u51fa\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 48482}, {\"type\": \"\\u8239\\u8236\\u5efa\\u9020\\u9669\", \"value\": 216}, {\"type\": \"\\u8fdc\\u6d0b\\u8239\\u8236\\u9669\", \"value\": 139584}, {\"type\": \"\\u4fdd\\u8d54\\u4fdd\\u9669\", \"value\": 18138}]",
+          "ttl": 86305
+        }
+      },
+      "time": 9,
+      "size": 655
+    }
+  },
+  {
+    "id": "500bcea9-1c87-4796-9feb-d368b3e792fe",
+    "timestamp": "2026-06-11T03:07:26.137Z",
+    "method": "GET",
+    "url": "http://ds-api.prod.shie.com.cn/api/v1/stats/redis/key?key=dsv2-90e20d38",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": {
+      "name": "湖南2024"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "access-control-allow-origin": "*",
+        "content-length": "655",
+        "content-type": "application/json",
+        "date": "Thu, 11 Jun 2026 03:07:25 GMT",
+        "server": "uvicorn"
+      },
+      "data": {
+        "code": 0,
+        "msg": "Success",
+        "data": {
+          "next_update": "1781147476",
+          "data": "[{\"type\": \"\\u8239\\u8236\\u6cb9\\u6c61\\u8d23\\u4efb\\u4fdd\\u9669\", \"value\": 834}, {\"type\": \"\\u8fdb\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 1058096}, {\"type\": \"\\u6e38\\u8247\\u4fdd\\u9669\", \"value\": 17}, {\"type\": \"\\u96c6\\u88c5\\u7bb1\\u4fdd\\u9669\", \"value\": 13066}, {\"type\": \"\\u51fa\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 48482}, {\"type\": \"\\u8239\\u8236\\u5efa\\u9020\\u9669\", \"value\": 216}, {\"type\": \"\\u8fdc\\u6d0b\\u8239\\u8236\\u9669\", \"value\": 139584}, {\"type\": \"\\u4fdd\\u8d54\\u4fdd\\u9669\", \"value\": 18138}]",
+          "ttl": 86307
+        }
+      },
+      "time": 12,
+      "size": 655
+    }
+  },
+  {
+    "id": "7a8c964b-bb07-4421-9473-782e01fe9cf3",
+    "timestamp": "2026-06-11T03:07:19.662Z",
+    "method": "GET",
+    "url": "http://ds-api.prod.shie.com.cn/api/v1/stats/redis/key?key=dsv2-90e20d38",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": {
+      "name": "湖南2024"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "access-control-allow-origin": "*",
+        "content-length": "655",
+        "content-type": "application/json",
+        "date": "Thu, 11 Jun 2026 03:07:18 GMT",
+        "server": "uvicorn"
+      },
+      "data": {
+        "code": 0,
+        "msg": "Success",
+        "data": {
+          "next_update": "1781147476",
+          "data": "[{\"type\": \"\\u8239\\u8236\\u6cb9\\u6c61\\u8d23\\u4efb\\u4fdd\\u9669\", \"value\": 834}, {\"type\": \"\\u8fdb\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 1058096}, {\"type\": \"\\u6e38\\u8247\\u4fdd\\u9669\", \"value\": 17}, {\"type\": \"\\u96c6\\u88c5\\u7bb1\\u4fdd\\u9669\", \"value\": 13066}, {\"type\": \"\\u51fa\\u53e3\\u8d27\\u8fd0\\u9669\", \"value\": 48482}, {\"type\": \"\\u8239\\u8236\\u5efa\\u9020\\u9669\", \"value\": 216}, {\"type\": \"\\u8fdc\\u6d0b\\u8239\\u8236\\u9669\", \"value\": 139584}, {\"type\": \"\\u4fdd\\u8d54\\u4fdd\\u9669\", \"value\": 18138}]",
+          "ttl": 86313
+        }
+      },
+      "time": 9,
+      "size": 655
+    }
+  },
+  {
+    "id": "510a3a50-f194-4f72-b85e-2e5a44409a86",
+    "timestamp": "2026-06-10T02:40:01.775Z",
+    "method": "GET",
+    "url": "http://ds-api.prod.shie.com.cn/api/v1/stats/redis/info",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": {
+      "name": "湖南2024"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "access-control-allow-origin": "*",
+        "content-length": "6288",
+        "content-type": "application/json",
+        "date": "Wed, 10 Jun 2026 02:40:00 GMT",
+        "server": "uvicorn"
+      },
+      "data": {
+        "code": 0,
+        "msg": "Success",
+        "data": {
+          "redis_version": "7.2.7",
+          "redis_git_sha1": 0,
+          "redis_git_dirty": 0,
+          "redis_build_id": "a8e4cb0bd71d1799",
+          "redis_mode": "standalone",
+          "os": "Linux 3.10.0-1160.el7.x86_64 x86_64",
+          "arch_bits": 64,
+          "monotonic_clock": "POSIX clock_gettime",
+          "multiplexing_api": "epoll",
+          "atomicvar_api": "c11-builtin",
+          "gcc_version": "14.2.0",
+          "process_id": 1,
+          "process_supervised": "no",
+          "run_id": "7b5d517d2f966ea042aa4a40f6ab27775de14661",
+          "tcp_port": 6379,
+          "server_time_usec": 1781059201769977,
+          "uptime_in_seconds": 27167289,
+          "uptime_in_days": 314,
+          "hz": 10,
+          "configured_hz": 10,
+          "lru_clock": 2674305,
+          "executable": "/data/redis-server",
+          "config_file": "/data/conf/redis.conf",
+          "io_threads_active": 0,
+          "listener0": {
+            "name": "tcp",
+            "bind": "-::*",
+            "port": 6379
+          },
+          "connected_clients": 324,
+          "cluster_connections": 0,
+          "maxclients": 10000,
+          "client_recent_max_input_buffer": 20480,
+          "client_recent_max_output_buffer": 20504,
+          "blocked_clients": 0,
+          "tracking_clients": 0,
+          "clients_in_timeout_table": 0,
+          "total_blocking_keys": 0,
+          "total_blocking_keys_on_nokey": 0,
+          "used_memory": 27110040,
+          "used_memory_human": "25.85M",
+          "used_memory_rss": 49508352,
+          "used_memory_rss_human": "47.21M",
+          "used_memory_peak": 6967219040,
+          "used_memory_peak_human": "6.49G",
+          "used_memory_peak_perc": "0.39%",
+          "used_memory_overhead": 3129024,
+          "used_memory_startup": 865920,
+          "used_memory_dataset": 23981016,
+          "used_memory_dataset_perc": "91.38%",
+          "allocator_allocated": 27337168,
+          "allocator_active": 29749248,
+          "allocator_resident": 66453504,
+          "total_system_memory": 33527644160,
+          "total_system_memory_human": "31.23G",
+          "used_memory_lua": 45056,
+          "used_memory_vm_eval": 45056,
+          "used_memory_lua_human": "44.00K",
+          "used_memory_scripts_eval": 2968,
+          "number_of_cached_scripts": 5,
+          "number_of_functions": 0,
+          "number_of_libraries": 0,
+          "used_memory_vm_functions": 32768,
+          "used_memory_vm_total": 77824,
+          "used_memory_vm_total_human": "76.00K",
+          "used_memory_functions": 184,
+          "used_memory_scripts": 3152,
+          "used_memory_scripts_human": "3.08K",
+          "maxmemory": 0,
+          "maxmemory_human": "0B",
+          "maxmemory_policy": "volatile-lru",
+          "allocator_frag_ratio": 1.09,
+          "allocator_frag_bytes": 2412080,
+          "allocator_rss_ratio": 2.23,
+          "allocator_rss_bytes": 36704256,
+          "rss_overhead_ratio": 0.75,
+          "rss_overhead_bytes": -16945152,
+          "mem_fragmentation_ratio": 1.83,
+          "mem_fragmentation_bytes": 22399376,
+          "mem_not_counted_for_evict": 13472,
+          "mem_replication_backlog": 1048592,
+          "mem_total_replication_buffers": 1066208,
+          "mem_clients_slaves": 17632,
+          "mem_clients_normal": 1025000,
+          "mem_cluster_links": 0,
+          "mem_aof_buffer": 0,
+          "mem_allocator": "jemalloc-5.3.0",
+          "active_defrag_running": 0,
+          "lazyfree_pending_objects": 0,
+          "lazyfreed_objects": 0,
+          "loading": 0,
+          "async_loading": 0,
+          "current_cow_peak": 0,
+          "current_cow_size": 0,
+          "current_cow_size_age": 0,
+          "current_fork_perc": 0,
+          "current_save_keys_processed": 0,
+          "current_save_keys_total": 0,
+          "rdb_changes_since_last_save": 558985,
+          "rdb_bgsave_in_progress": 0,
+          "rdb_last_save_time": 1781058800,
+          "rdb_last_bgsave_status": "ok",
+          "rdb_last_bgsave_time_sec": 0,
+          "rdb_current_bgsave_time_sec": -1,
+          "rdb_saves": 30065,
+          "rdb_last_cow_size": 4198400,
+          "rdb_last_load_keys_expired": 0,
+          "rdb_last_load_keys_loaded": 228990,
+          "aof_enabled": 0,
+          "aof_rewrite_in_progress": 0,
+          "aof_rewrite_scheduled": 0,
+          "aof_last_rewrite_time_sec": -1,
+          "aof_current_rewrite_time_sec": -1,
+          "aof_last_bgrewrite_status": "ok",
+          "aof_rewrites": 0,
+          "aof_rewrites_consecutive_failures": 0,
+          "aof_last_write_status": "ok",
+          "aof_last_cow_size": 0,
+          "module_fork_in_progress": 0,
+          "module_fork_last_cow_size": 0,
+          "total_connections_received": 39657882,
+          "total_commands_processed": 24510636972,
+          "instantaneous_ops_per_sec": 1022,
+          "total_net_input_bytes": 3069681543128,
+          "total_net_output_bytes": 51625860345524,
+          "total_net_repl_input_bytes": 327952263209,
+          "total_net_repl_output_bytes": 4275779411715,
+          "instantaneous_input_kbps": 103.86,
+          "instantaneous_output_kbps": 127.59,
+          "instantaneous_input_repl_kbps": 0,
+          "instantaneous_output_repl_kbps": 109.91,
+          "rejected_connections": 0,
+          "sync_full": 39,
+          "sync_partial_ok": 1,
+          "sync_partial_err": 39,
+          "expired_keys": 1289998,
+          "expired_stale_perc": 0,
+          "expired_time_cap_reached_count": 458,
+          "expire_cycle_cpu_milliseconds": 1740123,
+          "evicted_keys": 0,
+          "evicted_clients": 0,
+          "total_eviction_exceeded_time": 0,
+          "current_eviction_exceeded_time": 0,
+          "keyspace_hits": 7298635662,
+          "keyspace_misses": 1156539082,
+          "pubsub_channels": 3,
+          "pubsub_patterns": 0,
+          "pubsubshard_channels": 0,
+          "latest_fork_usec": 14655,
+          "total_forks": 30085,
+          "migrate_cached_sockets": 0,
+          "slave_expires_tracked_keys": 0,
+          "active_defrag_hits": 0,
+          "active_defrag_misses": 0,
+          "active_defrag_key_hits": 0,
+          "active_defrag_key_misses": 0,
+          "total_active_defrag_time": 0,
+          "current_active_defrag_time": 0,
+          "tracking_total_keys": 0,
+          "tracking_total_items": 0,
+          "tracking_total_prefixes": 0,
+          "unexpected_error_replies": 0,
+          "total_error_replies": 193162,
+          "dump_payload_sanitizations": 0,
+          "total_reads_processed": 21396086437,
+          "total_writes_processed": 37156147427,
+          "io_threaded_reads_processed": 0,
+          "io_threaded_writes_processed": 0,
+          "reply_buffer_shrinks": 44459348,
+          "reply_buffer_expands": 105228224,
+          "eventloop_cycles": 20609856918,
+          "eventloop_duration_sum": 1263522409295,
+          "eventloop_duration_cmd_sum": 141681783011,
+          "instantaneous_eventloop_cycles_per_sec": 666,
+          "instantaneous_eventloop_duration_usec": 87,
+          "acl_access_denied_auth": 653112,
+          "acl_access_denied_cmd": 0,
+          "acl_access_denied_key": 0,
+          "acl_access_denied_channel": 0,
+          "role": "master",
+          "connected_slaves": 2,
+          "min_slaves_good_slaves": 2,
+          "slave0": {
+            "ip": "10.43.35.97",
+            "port": 6379,
+            "state": "online",
+            "offset": 2684520208752,
+            "lag": 0
+          },
+          "slave1": {
+            "ip": "10.43.0.3",
+            "port": 6379,
+            "state": "online",
+            "offset": 2684520194566,
+            "lag": 1
+          },
+          "master_failover_state": "no-failover",
+          "master_replid": "d4907ebfa91bc84df04e5de0f6056965c6cb39be",
+          "master_replid2": "b20a695c1d637c65bf26ac1e693b6b0cce4a0a95",
+          "master_repl_offset": 2684520252944,
+          "second_repl_offset": 541617057233,
+          "repl_backlog_active": 1,
+          "repl_backlog_size": 1048576,
+          "repl_backlog_first_byte_offset": 2684519201009,
+          "repl_backlog_histlen": 1051936,
+          "used_cpu_sys": 999794.950519,
+          "used_cpu_user": 438644.930909,
+          "used_cpu_sys_children": 13434.505439,
+          "used_cpu_user_children": 70317.941969,
+          "used_cpu_sys_main_thread": 999180.349125,
+          "used_cpu_user_main_thread": 438504.420871,
+          "errorstat_ERR": "count=406",
+          "errorstat_LOADING": "count=92",
+          "errorstat_NOAUTH": "count=442",
+          "errorstat_NOREPLICAS": "count=60879",
+          "errorstat_NOSCRIPT": "count=2",
+          "errorstat_WRONGPASS": "count=131340",
+          "errorstat_WRONGTYPE": "count=1",
+          "cluster_enabled": 0,
+          "db0": {
+            "keys": 1423,
+            "expires": 1121,
+            "avg_ttl": 30107688
+          },
+          "db1": {
+            "keys": 660,
+            "expires": 219,
+            "avg_ttl": 74186293
+          }
+        }
+      },
+      "time": 17,
+      "size": 6282
+    }
+  },
+  {
+    "id": "ef875973-2ffa-4f95-9ea2-c6a25bde0131",
+    "timestamp": "2026-06-10T02:38:31.408Z",
+    "method": "GET",
+    "url": "http://ds-api-ire.prod.shie.com.cn/api/v1/stats/redis/info",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": {
+      "name": "湖南2024"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "access-control-allow-origin": "*",
+        "content-length": "6287",
+        "content-type": "application/json",
+        "date": "Wed, 10 Jun 2026 02:38:30 GMT",
+        "server": "uvicorn"
+      },
+      "data": {
+        "code": 0,
+        "msg": "Success",
+        "data": {
+          "redis_version": "7.2.7",
+          "redis_git_sha1": 0,
+          "redis_git_dirty": 0,
+          "redis_build_id": "a8e4cb0bd71d1799",
+          "redis_mode": "standalone",
+          "os": "Linux 3.10.0-1160.el7.x86_64 x86_64",
+          "arch_bits": 64,
+          "monotonic_clock": "POSIX clock_gettime",
+          "multiplexing_api": "epoll",
+          "atomicvar_api": "c11-builtin",
+          "gcc_version": "14.2.0",
+          "process_id": 1,
+          "process_supervised": "no",
+          "run_id": "7b5d517d2f966ea042aa4a40f6ab27775de14661",
+          "tcp_port": 6379,
+          "server_time_usec": 1781059111403406,
+          "uptime_in_seconds": 27167199,
+          "uptime_in_days": 314,
+          "hz": 10,
+          "configured_hz": 10,
+          "lru_clock": 2674215,
+          "executable": "/data/redis-server",
+          "config_file": "/data/conf/redis.conf",
+          "io_threads_active": 0,
+          "listener0": {
+            "name": "tcp",
+            "bind": "-::*",
+            "port": 6379
+          },
+          "connected_clients": 324,
+          "cluster_connections": 0,
+          "maxclients": 10000,
+          "client_recent_max_input_buffer": 20480,
+          "client_recent_max_output_buffer": 20504,
+          "blocked_clients": 0,
+          "tracking_clients": 0,
+          "clients_in_timeout_table": 0,
+          "total_blocking_keys": 0,
+          "total_blocking_keys_on_nokey": 0,
+          "used_memory": 27050088,
+          "used_memory_human": "25.80M",
+          "used_memory_rss": 49582080,
+          "used_memory_rss_human": "47.29M",
+          "used_memory_peak": 6967219040,
+          "used_memory_peak_human": "6.49G",
+          "used_memory_peak_perc": "0.39%",
+          "used_memory_overhead": 3148136,
+          "used_memory_startup": 865920,
+          "used_memory_dataset": 23901952,
+          "used_memory_dataset_perc": "91.28%",
+          "allocator_allocated": 27430168,
+          "allocator_active": 29921280,
+          "allocator_resident": 66560000,
+          "total_system_memory": 33527644160,
+          "total_system_memory_human": "31.23G",
+          "used_memory_lua": 64512,
+          "used_memory_vm_eval": 64512,
+          "used_memory_lua_human": "63.00K",
+          "used_memory_scripts_eval": 2968,
+          "number_of_cached_scripts": 5,
+          "number_of_functions": 0,
+          "number_of_libraries": 0,
+          "used_memory_vm_functions": 32768,
+          "used_memory_vm_total": 97280,
+          "used_memory_vm_total_human": "95.00K",
+          "used_memory_functions": 184,
+          "used_memory_scripts": 3152,
+          "used_memory_scripts_human": "3.08K",
+          "maxmemory": 0,
+          "maxmemory_human": "0B",
+          "maxmemory_policy": "volatile-lru",
+          "allocator_frag_ratio": 1.09,
+          "allocator_frag_bytes": 2491112,
+          "allocator_rss_ratio": 2.22,
+          "allocator_rss_bytes": 36638720,
+          "rss_overhead_ratio": 0.74,
+          "rss_overhead_bytes": -16977920,
+          "mem_fragmentation_ratio": 1.83,
+          "mem_fragmentation_bytes": 22516392,
+          "mem_not_counted_for_evict": 13472,
+          "mem_replication_backlog": 1048592,
+          "mem_total_replication_buffers": 1066208,
+          "mem_clients_slaves": 17632,
+          "mem_clients_normal": 1054432,
+          "mem_cluster_links": 0,
+          "mem_aof_buffer": 0,
+          "mem_allocator": "jemalloc-5.3.0",
+          "active_defrag_running": 0,
+          "lazyfree_pending_objects": 0,
+          "lazyfreed_objects": 0,
+          "loading": 0,
+          "async_loading": 0,
+          "current_cow_peak": 0,
+          "current_cow_size": 0,
+          "current_cow_size_age": 0,
+          "current_fork_perc": 0,
+          "current_save_keys_processed": 0,
+          "current_save_keys_total": 0,
+          "rdb_changes_since_last_save": 429957,
+          "rdb_bgsave_in_progress": 0,
+          "rdb_last_save_time": 1781058800,
+          "rdb_last_bgsave_status": "ok",
+          "rdb_last_bgsave_time_sec": 0,
+          "rdb_current_bgsave_time_sec": -1,
+          "rdb_saves": 30065,
+          "rdb_last_cow_size": 4198400,
+          "rdb_last_load_keys_expired": 0,
+          "rdb_last_load_keys_loaded": 228990,
+          "aof_enabled": 0,
+          "aof_rewrite_in_progress": 0,
+          "aof_rewrite_scheduled": 0,
+          "aof_last_rewrite_time_sec": -1,
+          "aof_current_rewrite_time_sec": -1,
+          "aof_last_bgrewrite_status": "ok",
+          "aof_rewrites": 0,
+          "aof_rewrites_consecutive_failures": 0,
+          "aof_last_write_status": "ok",
+          "aof_last_cow_size": 0,
+          "module_fork_in_progress": 0,
+          "module_fork_last_cow_size": 0,
+          "total_connections_received": 39657789,
+          "total_commands_processed": 24510500742,
+          "instantaneous_ops_per_sec": 1215,
+          "total_net_input_bytes": 3069667901697,
+          "total_net_output_bytes": 51625841251028,
+          "total_net_repl_input_bytes": 327952263209,
+          "total_net_repl_output_bytes": 4275764085063,
+          "instantaneous_input_kbps": 114.98,
+          "instantaneous_output_kbps": 204.16,
+          "instantaneous_input_repl_kbps": 0,
+          "instantaneous_output_repl_kbps": 137.95,
+          "rejected_connections": 0,
+          "sync_full": 39,
+          "sync_partial_ok": 1,
+          "sync_partial_err": 39,
+          "expired_keys": 1289998,
+          "expired_stale_perc": 0,
+          "expired_time_cap_reached_count": 458,
+          "expire_cycle_cpu_milliseconds": 1740108,
+          "evicted_keys": 0,
+          "evicted_clients": 0,
+          "total_eviction_exceeded_time": 0,
+          "current_eviction_exceeded_time": 0,
+          "keyspace_hits": 7298600689,
+          "keyspace_misses": 1156532587,
+          "pubsub_channels": 3,
+          "pubsub_patterns": 0,
+          "pubsubshard_channels": 0,
+          "latest_fork_usec": 14655,
+          "total_forks": 30085,
+          "migrate_cached_sockets": 0,
+          "slave_expires_tracked_keys": 0,
+          "active_defrag_hits": 0,
+          "active_defrag_misses": 0,
+          "active_defrag_key_hits": 0,
+          "active_defrag_key_misses": 0,
+          "total_active_defrag_time": 0,
+          "current_active_defrag_time": 0,
+          "tracking_total_keys": 0,
+          "tracking_total_items": 0,
+          "tracking_total_prefixes": 0,
+          "unexpected_error_replies": 0,
+          "total_error_replies": 193162,
+          "dump_payload_sanitizations": 0,
+          "total_reads_processed": 21395993850,
+          "total_writes_processed": 37155956721,
+          "io_threaded_reads_processed": 0,
+          "io_threaded_writes_processed": 0,
+          "reply_buffer_shrinks": 44459196,
+          "reply_buffer_expands": 105228049,
+          "eventloop_cycles": 20609770699,
+          "eventloop_duration_sum": 1263517331539,
+          "eventloop_duration_cmd_sum": 141681027015,
+          "instantaneous_eventloop_cycles_per_sec": 544,
+          "instantaneous_eventloop_duration_usec": 96,
+          "acl_access_denied_auth": 653112,
+          "acl_access_denied_cmd": 0,
+          "acl_access_denied_key": 0,
+          "acl_access_denied_channel": 0,
+          "role": "master",
+          "connected_slaves": 2,
+          "min_slaves_good_slaves": 2,
+          "slave0": {
+            "ip": "10.43.35.97",
+            "port": 6379,
+            "state": "online",
+            "offset": 2684512507156,
+            "lag": 1
+          },
+          "slave1": {
+            "ip": "10.43.0.3",
+            "port": 6379,
+            "state": "online",
+            "offset": 2684512506510,
+            "lag": 1
+          },
+          "master_failover_state": "no-failover",
+          "master_replid": "d4907ebfa91bc84df04e5de0f6056965c6cb39be",
+          "master_replid2": "b20a695c1d637c65bf26ac1e693b6b0cce4a0a95",
+          "master_repl_offset": 2684512589618,
+          "second_repl_offset": 541617057233,
+          "repl_backlog_active": 1,
+          "repl_backlog_size": 1048576,
+          "repl_backlog_first_byte_offset": 2684511536009,
+          "repl_backlog_histlen": 1053610,
+          "used_cpu_sys": 999790.998252,
+          "used_cpu_user": 438643.20149,
+          "used_cpu_sys_children": 13434.505439,
+          "used_cpu_user_children": 70317.941969,
+          "used_cpu_sys_main_thread": 999176.396615,
+          "used_cpu_user_main_thread": 438502.692453,
+          "errorstat_ERR": "count=406",
+          "errorstat_LOADING": "count=92",
+          "errorstat_NOAUTH": "count=442",
+          "errorstat_NOREPLICAS": "count=60879",
+          "errorstat_NOSCRIPT": "count=2",
+          "errorstat_WRONGPASS": "count=131340",
+          "errorstat_WRONGTYPE": "count=1",
+          "cluster_enabled": 0,
+          "db0": {
+            "keys": 1180,
+            "expires": 1112,
+            "avg_ttl": 30207314
+          },
+          "db1": {
+            "keys": 654,
+            "expires": 213,
+            "avg_ttl": 76248450
+          }
+        }
+      },
+      "time": 13,
+      "size": 6281
+    }
+  },
+  {
+    "id": "7d5425d0-2690-4310-8cfd-79aed332bcfc",
+    "timestamp": "2026-06-09T07:59:37.151Z",
+    "method": "POST",
+    "url": "http://shie-akso.xcprod2.shie.com.cn/v0/api/bhi/authorization/check",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": {
+      "userName": "沈雅婷",
+      "idType": "1",
+      "idNumber": "320525199007191023"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+        "content-type": "application/json",
+        "date": "Tue, 09 Jun 2026 07:59:37 GMT",
+        "expires": "0",
+        "pragma": "no-cache",
+        "vary": "Origin",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY",
+        "x-xss-protection": "1; mode=block",
+        "transfer-encoding": "chunked"
+      },
+      "data": {
+        "orgs": [
+          "000184"
+        ]
+      },
+      "time": 6204,
+      "size": 19
+    }
+  },
+  {
+    "id": "3564319d-cda3-4874-8c56-e1d6319c990c",
+    "timestamp": "2026-06-09T07:59:26.195Z",
+    "method": "POST",
+    "url": "http://shie-akso.xcprod2.shie.com.cn/v0/api/bhi/authorization/check",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": {
+      "userName": "沈雅婷",
+      "idType": "1",
+      "idNumber": "320525199007191023"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+        "content-type": "application/json",
+        "date": "Tue, 09 Jun 2026 07:59:25 GMT",
+        "expires": "0",
+        "pragma": "no-cache",
+        "vary": "Origin",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY",
+        "x-xss-protection": "1; mode=block",
+        "transfer-encoding": "chunked"
+      },
+      "data": {
+        "orgs": [
+          "000184"
+        ]
+      },
+      "time": 11252,
+      "size": 19
+    }
+  },
+  {
+    "id": "968f4870-e6e2-4329-95fc-4437b99082e7",
+    "timestamp": "2026-06-09T07:59:10.536Z",
+    "method": "POST",
+    "url": "http://shie-akso.xcprod2.shie.com.cn/v0/api/bhi/authorization/check",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": {
+      "userName": "沈雅婷",
+      "idType": "1",
+      "idNumber": "320525199007191023"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+        "content-type": "application/json",
+        "date": "Tue, 09 Jun 2026 07:59:10 GMT",
+        "expires": "0",
+        "pragma": "no-cache",
+        "vary": "Origin",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY",
+        "x-xss-protection": "1; mode=block",
+        "transfer-encoding": "chunked"
+      },
+      "data": {
+        "orgs": [
+          "000184"
+        ]
+      },
+      "time": 20,
+      "size": 19
+    }
+  },
+  {
+    "id": "a5692b45-b366-484a-829b-205b8b7b02ac",
+    "timestamp": "2026-06-09T07:57:39.933Z",
+    "method": "POST",
+    "url": "http://shie-akso.xcprod2.shie.com.cn/v0/api/bhi/authorization/check",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": {
+      "userName": "沈雅婷",
+      "idType": "1",
+      "idNumber": "320525199007191023"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+        "content-type": "application/json",
+        "date": "Tue, 09 Jun 2026 07:57:39 GMT",
+        "expires": "0",
+        "pragma": "no-cache",
+        "vary": "Origin",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY",
+        "x-xss-protection": "1; mode=block",
+        "transfer-encoding": "chunked"
+      },
+      "data": {
+        "orgs": [
+          "000184"
+        ]
+      },
+      "time": 2658,
+      "size": 19
+    }
+  },
+  {
+    "id": "cc79dad9-a66b-4e15-87b9-efac61bbb1e6",
+    "timestamp": "2026-06-09T07:53:59.082Z",
+    "method": "POST",
+    "url": "http://nbwjw-akso.xcprod2.shie.com.cn/v0/api/bhi/authorization/check",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": {
+      "userName": "沈雅婷",
+      "idType": "1",
+      "idNumber": "320525199007191023"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+        "content-type": "application/json",
+        "date": "Tue, 09 Jun 2026 07:53:59 GMT",
+        "expires": "0",
+        "pragma": "no-cache",
+        "vary": "Origin",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY",
+        "x-xss-protection": "1; mode=block",
+        "transfer-encoding": "chunked"
+      },
+      "data": {
+        "orgs": [
+          "000184"
+        ]
+      },
+      "time": 9874,
+      "size": 19
+    }
+  },
+  {
+    "id": "37759963-f3e8-4227-be8c-adf4133295db",
+    "timestamp": "2026-06-09T06:43:23.588Z",
+    "method": "POST",
+    "url": "http://nbwjw-akso.xcprod2.shie.com.cn/v0/api/bhi/authorization/check",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": {
+      "userName": "沈雅婷",
+      "idType": "1",
+      "idNumber": "320525199007191023"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+        "content-type": "application/json",
+        "date": "Tue, 09 Jun 2026 06:43:23 GMT",
+        "expires": "0",
+        "pragma": "no-cache",
+        "vary": "Origin",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY",
+        "x-xss-protection": "1; mode=block",
+        "transfer-encoding": "chunked"
+      },
+      "data": {
+        "orgs": [
+          "000184"
+        ]
+      },
+      "time": 4217,
+      "size": 19
+    }
+  },
+  {
+    "id": "dde41b55-80fa-40ce-ac34-71dbfb79ae57",
+    "timestamp": "2026-06-09T06:43:13.775Z",
+    "method": "POST",
+    "url": "http://akso-nbwjw.xctest2.shie.com.cn/v0/api/bhi/authorization/check",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": {
+      "userName": "沈雅婷",
+      "idType": "1",
+      "idNumber": "320525199007191023"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+        "content-type": "application/json",
+        "date": "Tue, 09 Jun 2026 06:43:13 GMT",
+        "expires": "0",
+        "pragma": "no-cache",
+        "vary": "Origin",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY",
+        "x-xss-protection": "1; mode=block",
+        "transfer-encoding": "chunked"
+      },
+      "data": {
+        "orgs": [
+          "000015",
+          "000184"
+        ]
+      },
+      "time": 16,
+      "size": 28
+    }
+  },
+  {
+    "id": "83381ce7-f01e-46e6-afc0-47c727a28894",
+    "timestamp": "2026-06-09T06:43:13.264Z",
+    "method": "POST",
+    "url": "http://akso-nbwjw.xctest2.shie.com.cn/v0/api/bhi/authorization/check",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": {
+      "userName": "沈雅婷",
+      "idType": "1",
+      "idNumber": "320525199007191023"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+        "content-type": "application/json",
+        "date": "Tue, 09 Jun 2026 06:43:12 GMT",
+        "expires": "0",
+        "pragma": "no-cache",
+        "vary": "Origin",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY",
+        "x-xss-protection": "1; mode=block",
+        "transfer-encoding": "chunked"
+      },
+      "data": {
+        "orgs": [
+          "000015",
+          "000184"
+        ]
+      },
+      "time": 27,
+      "size": 28
+    }
+  },
+  {
+    "id": "26a1f8bf-828c-4c05-bec4-c5ae70e0984f",
+    "timestamp": "2026-06-09T06:43:12.702Z",
+    "method": "POST",
+    "url": "http://akso-nbwjw.xctest2.shie.com.cn/v0/api/bhi/authorization/check",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": {
+      "userName": "沈雅婷",
+      "idType": "1",
+      "idNumber": "320525199007191023"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+        "content-type": "application/json",
+        "date": "Tue, 09 Jun 2026 06:43:12 GMT",
+        "expires": "0",
+        "pragma": "no-cache",
+        "vary": "Origin",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY",
+        "x-xss-protection": "1; mode=block",
+        "transfer-encoding": "chunked"
+      },
+      "data": {
+        "orgs": [
+          "000015",
+          "000184"
+        ]
+      },
+      "time": 25,
+      "size": 28
+    }
+  },
+  {
+    "id": "1b79bf14-29cc-48c8-b17a-50fa83bdada9",
+    "timestamp": "2026-06-09T06:43:11.977Z",
+    "method": "POST",
+    "url": "http://akso-nbwjw.xctest2.shie.com.cn/v0/api/bhi/authorization/check",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": {
+      "userName": "沈雅婷",
+      "idType": "1",
+      "idNumber": "320525199007191023"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+        "content-type": "application/json",
+        "date": "Tue, 09 Jun 2026 06:43:11 GMT",
+        "expires": "0",
+        "pragma": "no-cache",
+        "vary": "Origin",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY",
+        "x-xss-protection": "1; mode=block",
+        "transfer-encoding": "chunked"
+      },
+      "data": {
+        "orgs": [
+          "000015",
+          "000184"
+        ]
+      },
+      "time": 18,
+      "size": 28
+    }
+  },
+  {
+    "id": "7ea76880-9d69-46fe-af12-3c5b12398df8",
+    "timestamp": "2026-06-09T06:43:11.129Z",
+    "method": "POST",
+    "url": "http://akso-nbwjw.xctest2.shie.com.cn/v0/api/bhi/authorization/check",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": {
+      "userName": "沈雅婷",
+      "idType": "1",
+      "idNumber": "320525199007191023"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+        "content-type": "application/json",
+        "date": "Tue, 09 Jun 2026 06:43:11 GMT",
+        "expires": "0",
+        "pragma": "no-cache",
+        "vary": "Origin",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY",
+        "x-xss-protection": "1; mode=block",
+        "transfer-encoding": "chunked"
+      },
+      "data": {
+        "orgs": [
+          "000015",
+          "000184"
+        ]
+      },
+      "time": 27,
+      "size": 28
+    }
+  },
+  {
+    "id": "38ca9a13-b664-4908-87fb-51ca85e9f1ea",
+    "timestamp": "2026-06-09T06:43:09.871Z",
+    "method": "POST",
+    "url": "http://akso-nbwjw.xctest2.shie.com.cn/v0/api/bhi/authorization/check",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": {
+      "userName": "沈雅婷",
+      "idType": "1",
+      "idNumber": "320525199007191023"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+        "content-type": "application/json",
+        "date": "Tue, 09 Jun 2026 06:43:09 GMT",
+        "expires": "0",
+        "pragma": "no-cache",
+        "vary": "Origin",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY",
+        "x-xss-protection": "1; mode=block",
+        "transfer-encoding": "chunked"
+      },
+      "data": {
+        "orgs": [
+          "000015",
+          "000184"
+        ]
+      },
+      "time": 34,
+      "size": 28
+    }
+  },
+  {
+    "id": "718a7250-9172-4566-a6fe-3d133e6b26f2",
+    "timestamp": "2026-06-09T06:42:58.485Z",
+    "method": "POST",
+    "url": "http://nbwjw-akso.xcprod2.shie.com.cn/v0/api/bhi/authorization/check",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": {
+      "userName": "沈雅婷",
+      "idType": "1",
+      "idNumber": "320525199007191023"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+        "content-type": "application/json",
+        "date": "Tue, 09 Jun 2026 06:42:58 GMT",
+        "expires": "0",
+        "pragma": "no-cache",
+        "vary": "Origin",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY",
+        "x-xss-protection": "1; mode=block",
+        "transfer-encoding": "chunked"
+      },
+      "data": {
+        "orgs": [
+          "000184"
+        ]
+      },
+      "time": 5555,
+      "size": 19
+    }
+  },
+  {
+    "id": "ed4116e8-2536-497e-80ec-0055f72e0939",
+    "timestamp": "2026-06-09T05:58:05.029Z",
+    "method": "GET",
+    "url": "http://ds-api.prod.shie.com.cn/api/v1/data/getData/shie/nevis/policyPremium2",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": null,
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "content-length": "53",
+        "content-type": "application/json",
+        "date": "Tue, 09 Jun 2026 05:58:04 GMT",
+        "server": "uvicorn"
+      },
+      "data": {
+        "code": 0,
+        "msg": "成功",
+        "data": [
+          {
+            "value": 115097.1
+          }
+        ]
+      },
+      "time": 16,
+      "size": 49
+    }
+  },
+  {
+    "id": "7e66d48a-8c0c-48b7-9147-a98732cefed3",
+    "timestamp": "2026-06-08T09:00:35.725Z",
+    "method": "POST",
+    "url": "http://nbwjw-akso.xcprod2.shie.com.cn/v0/api/bhi/authorization/check",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": {
+      "userName": "沈雅婷",
+      "idType": "1",
+      "idNumber": "320525199007191023"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+        "content-type": "application/json",
+        "date": "Mon, 08 Jun 2026 09:00:35 GMT",
+        "expires": "0",
+        "pragma": "no-cache",
+        "vary": "Origin",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY",
+        "x-xss-protection": "1; mode=block",
+        "transfer-encoding": "chunked"
+      },
+      "data": {
+        "orgs": [
+          "000184"
+        ]
+      },
+      "time": 18740,
+      "size": 19
+    }
+  },
+  {
+    "id": "a4cea775-4d26-4cb2-bd9d-5336688933a9",
+    "timestamp": "2026-06-08T07:44:19.498Z",
+    "method": "POST",
+    "url": "http://nbwjw-akso.xcprod2.shie.com.cn/v0/api/bhi/authorization/check",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": {
+      "userName": "沈雅婷",
+      "idType": "1",
+      "idNumber": "320525199007191023"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+        "content-type": "application/json",
+        "date": "Mon, 08 Jun 2026 07:44:19 GMT",
+        "expires": "0",
+        "pragma": "no-cache",
+        "vary": "Origin",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY",
+        "x-xss-protection": "1; mode=block",
+        "transfer-encoding": "chunked"
+      },
+      "data": {
+        "orgs": [
+          "000184"
+        ]
+      },
+      "time": 6363,
+      "size": 19
+    }
+  },
+  {
+    "id": "1d712494-e62e-4655-b9bf-269268873696",
+    "timestamp": "2026-06-08T06:09:25.889Z",
+    "method": "POST",
+    "url": "http://nbwjw-akso.xcprod2.shie.com.cn/v0/api/bhi/authorization/check",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": {
+      "userName": "沈雅婷",
+      "idType": "1",
+      "idNumber": "320525199007191023"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+        "content-type": "application/json",
+        "date": "Mon, 08 Jun 2026 06:09:25 GMT",
+        "expires": "0",
+        "pragma": "no-cache",
+        "vary": "Origin",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY",
+        "x-xss-protection": "1; mode=block",
+        "transfer-encoding": "chunked"
+      },
+      "data": {
+        "orgs": [
+          "000184"
+        ]
+      },
+      "time": 18943,
+      "size": 19
+    }
+  },
+  {
+    "id": "ca95a1ad-84c5-491e-a599-5735f4aebac7",
+    "timestamp": "2026-06-08T05:49:23.513Z",
+    "method": "POST",
+    "url": "http://nbwjw-akso.xcprod2.shie.com.cn/v0/api/bhi/authorization/check",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": {
+      "userName": "沈雅婷",
+      "idType": "1",
+      "idNumber": "320525199007191023"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+        "content-type": "application/json",
+        "date": "Mon, 08 Jun 2026 05:49:22 GMT",
+        "expires": "0",
+        "pragma": "no-cache",
+        "vary": "Origin",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY",
+        "x-xss-protection": "1; mode=block",
+        "transfer-encoding": "chunked"
+      },
+      "data": {
+        "orgs": [
+          "000184"
+        ]
+      },
+      "time": 6390,
+      "size": 19
+    }
+  },
+  {
+    "id": "1854caad-01e3-4d35-a1db-c380ca117540",
+    "timestamp": "2026-06-08T05:49:11.470Z",
+    "method": "POST",
+    "url": "http://akso-nbwjw.xctest2.shie.com.cn/v0/api/bhi/authorization/check",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": {
+      "userName": "沈雅婷",
+      "idType": "1",
+      "idNumber": "320525199007191023"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+        "content-type": "application/json",
+        "date": "Mon, 08 Jun 2026 05:49:11 GMT",
+        "expires": "0",
+        "pragma": "no-cache",
+        "vary": "Origin",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY",
+        "x-xss-protection": "1; mode=block",
+        "transfer-encoding": "chunked"
+      },
+      "data": {
+        "orgs": [
+          "000015",
+          "000184"
+        ]
+      },
+      "time": 31,
+      "size": 28
+    }
+  },
+  {
+    "id": "d43cc599-78c7-4e9c-95de-9a63297505d2",
+    "timestamp": "2026-06-08T05:49:10.766Z",
+    "method": "POST",
+    "url": "http://akso-nbwjw.xctest2.shie.com.cn/v0/api/bhi/authorization/check",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": {
+      "userName": "沈雅婷",
+      "idType": "1",
+      "idNumber": "320525199007191023"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+        "content-type": "application/json",
+        "date": "Mon, 08 Jun 2026 05:49:09 GMT",
+        "expires": "0",
+        "pragma": "no-cache",
+        "vary": "Origin",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY",
+        "x-xss-protection": "1; mode=block",
+        "transfer-encoding": "chunked"
+      },
+      "data": {
+        "orgs": [
+          "000015",
+          "000184"
+        ]
+      },
+      "time": 22,
+      "size": 28
+    }
+  },
+  {
+    "id": "2ecb7d62-f6ed-43e6-884f-74bc8938e544",
+    "timestamp": "2026-06-08T05:49:09.956Z",
+    "method": "POST",
+    "url": "http://akso-nbwjw.xctest2.shie.com.cn/v0/api/bhi/authorization/check",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": {
+      "userName": "沈雅婷",
+      "idType": "1",
+      "idNumber": "320525199007191023"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+        "content-type": "application/json",
+        "date": "Mon, 08 Jun 2026 05:49:09 GMT",
+        "expires": "0",
+        "pragma": "no-cache",
+        "vary": "Origin",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY",
+        "x-xss-protection": "1; mode=block",
+        "transfer-encoding": "chunked"
+      },
+      "data": {
+        "orgs": [
+          "000015",
+          "000184"
+        ]
+      },
+      "time": 17,
+      "size": 28
+    }
+  },
+  {
+    "id": "5953ebc6-4755-4ed0-9bea-cc74720dd8eb",
+    "timestamp": "2026-06-08T05:49:09.249Z",
+    "method": "POST",
+    "url": "http://akso-nbwjw.xctest2.shie.com.cn/v0/api/bhi/authorization/check",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": {
+      "userName": "沈雅婷",
+      "idType": "1",
+      "idNumber": "320525199007191023"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+        "content-type": "application/json",
+        "date": "Mon, 08 Jun 2026 05:49:08 GMT",
+        "expires": "0",
+        "pragma": "no-cache",
+        "vary": "Origin",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY",
+        "x-xss-protection": "1; mode=block",
+        "transfer-encoding": "chunked"
+      },
+      "data": {
+        "orgs": [
+          "000015",
+          "000184"
+        ]
+      },
+      "time": 46,
+      "size": 28
+    }
+  },
+  {
+    "id": "a6b9e6eb-d486-4016-9f1a-165ce366f868",
+    "timestamp": "2026-06-08T05:49:08.498Z",
+    "method": "POST",
+    "url": "http://akso-nbwjw.xctest2.shie.com.cn/v0/api/bhi/authorization/check",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": {
+      "userName": "沈雅婷",
+      "idType": "1",
+      "idNumber": "320525199007191023"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+        "content-type": "application/json",
+        "date": "Mon, 08 Jun 2026 05:49:08 GMT",
+        "expires": "0",
+        "pragma": "no-cache",
+        "vary": "Origin",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY",
+        "x-xss-protection": "1; mode=block",
+        "transfer-encoding": "chunked"
+      },
+      "data": {
+        "orgs": [
+          "000015",
+          "000184"
+        ]
+      },
+      "time": 27,
+      "size": 28
+    }
+  },
+  {
+    "id": "03e25539-2729-45e1-b8b9-f54312f9cdf1",
+    "timestamp": "2026-06-08T05:49:07.256Z",
+    "method": "POST",
+    "url": "http://akso-nbwjw.xctest2.shie.com.cn/v0/api/bhi/authorization/check",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": {
+      "userName": "沈雅婷",
+      "idType": "1",
+      "idNumber": "320525199007191023"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+        "content-type": "application/json",
+        "date": "Mon, 08 Jun 2026 05:49:07 GMT",
+        "expires": "0",
+        "pragma": "no-cache",
+        "vary": "Origin",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY",
+        "x-xss-protection": "1; mode=block",
+        "transfer-encoding": "chunked"
+      },
+      "data": {
+        "orgs": [
+          "000015",
+          "000184"
+        ]
+      },
+      "time": 17,
+      "size": 28
+    }
+  },
+  {
+    "id": "f4fc18ed-49b1-4385-aafc-fa274f22b70e",
+    "timestamp": "2026-06-08T05:49:06.225Z",
+    "method": "POST",
+    "url": "http://akso-nbwjw.xctest2.shie.com.cn/v0/api/bhi/authorization/check",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": {
+      "userName": "沈雅婷",
+      "idType": "1",
+      "idNumber": "320525199007191023"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+        "content-type": "application/json",
+        "date": "Mon, 08 Jun 2026 05:49:06 GMT",
+        "expires": "0",
+        "pragma": "no-cache",
+        "vary": "Origin",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY",
+        "x-xss-protection": "1; mode=block",
+        "transfer-encoding": "chunked"
+      },
+      "data": {
+        "orgs": [
+          "000015",
+          "000184"
+        ]
+      },
+      "time": 22,
+      "size": 28
+    }
+  },
+  {
+    "id": "8abe6291-6ce1-492b-866e-15f589ca2f2f",
+    "timestamp": "2026-06-08T05:49:03.956Z",
+    "method": "POST",
+    "url": "http://akso-nbwjw.xctest2.shie.com.cn/v0/api/bhi/authorization/check",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": {
+      "userName": "沈雅婷",
+      "idType": "1",
+      "idNumber": "320525199007191023"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+        "content-type": "application/json",
+        "date": "Mon, 08 Jun 2026 05:49:03 GMT",
+        "expires": "0",
+        "pragma": "no-cache",
+        "vary": "Origin",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY",
+        "x-xss-protection": "1; mode=block",
+        "transfer-encoding": "chunked"
+      },
+      "data": {
+        "orgs": [
+          "000015",
+          "000184"
+        ]
+      },
+      "time": 19,
+      "size": 28
+    }
+  },
+  {
+    "id": "c762d378-4dff-45d5-bbbc-45db83a64c98",
+    "timestamp": "2026-06-08T05:48:27.788Z",
+    "method": "POST",
+    "url": "http://akso-nbwjw.xctest2.shie.com.cn/v0/api/bhi/authorization/check",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": {
+      "userName": "沈雅婷",
+      "idType": "1",
+      "idNumber": "320525199007191023"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+        "content-type": "application/json",
+        "date": "Mon, 08 Jun 2026 05:48:27 GMT",
+        "expires": "0",
+        "pragma": "no-cache",
+        "vary": "Origin",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY",
+        "x-xss-protection": "1; mode=block",
+        "transfer-encoding": "chunked"
+      },
+      "data": {
+        "orgs": [
+          "000015",
+          "000184"
+        ]
+      },
+      "time": 396,
+      "size": 28
+    }
+  },
+  {
+    "id": "f92dcd3e-60bc-4201-95e5-e0c3c2d2902a",
+    "timestamp": "2026-06-08T05:42:56.106Z",
+    "method": "POST",
+    "url": "http://nbwjw-akso.xcprod2.shie.com.cn/v0/api/bhi/authorization/check",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": {
+      "userName": "沈雅婷",
+      "idType": "1",
+      "idNumber": "320525199007191023"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+        "content-type": "application/json",
+        "date": "Mon, 08 Jun 2026 05:42:55 GMT",
+        "expires": "0",
+        "pragma": "no-cache",
+        "vary": "Origin",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY",
+        "x-xss-protection": "1; mode=block",
+        "transfer-encoding": "chunked"
+      },
+      "data": {
+        "orgs": [
+          "000184"
+        ]
+      },
+      "time": 12221,
+      "size": 19
+    }
+  },
+  {
+    "id": "8a693735-6d65-4d19-9545-6dfbe57ae3fb",
+    "timestamp": "2026-06-08T01:19:00.451Z",
+    "method": "POST",
+    "url": "http://nbwjw-akso.xcprod2.shie.com.cn/v0/api/bhi/authorization/check",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": {
+      "userName": "沈雅婷",
+      "idType": "1",
+      "idNumber": "320525199007191023"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+        "content-type": "application/json",
+        "date": "Mon, 08 Jun 2026 01:18:59 GMT",
+        "expires": "0",
+        "pragma": "no-cache",
+        "vary": "Origin",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY",
+        "x-xss-protection": "1; mode=block",
+        "transfer-encoding": "chunked"
+      },
+      "data": {
+        "orgs": [
+          "000184"
+        ]
+      },
+      "time": 22942,
+      "size": 19
+    }
+  },
+  {
+    "id": "3aca8fc7-f2c3-4a13-9f86-ed22c6ec0336",
+    "timestamp": "2026-06-08T01:18:30.348Z",
+    "method": "POST",
+    "url": "http://nbwjw-akso.xcprod2.shie.com.cn/v0/api/bhi/authorization/check",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": {
+      "userName": "沈雅婷",
+      "idType": "1",
+      "idNumber": "320525199007191023"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+        "content-type": "application/json",
+        "date": "Mon, 08 Jun 2026 01:18:30 GMT",
+        "expires": "0",
+        "pragma": "no-cache",
+        "vary": "Origin",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY",
+        "x-xss-protection": "1; mode=block",
+        "transfer-encoding": "chunked"
+      },
+      "data": {
+        "orgs": [
+          "000184"
+        ]
+      },
+      "time": 24831,
+      "size": 19
+    }
+  },
+  {
+    "id": "f97ca047-3897-4185-a080-1a606677a72a",
+    "timestamp": "2026-06-04T09:19:37.810Z",
+    "method": "POST",
+    "url": "http://nbwjw-akso.xcprod2.shie.com.cn/v0/api/bhi/authorization/check",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": {
+      "userName": "沈雅婷",
+      "idType": "1",
+      "idNumber": "320525199007191023"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+        "content-type": "application/json",
+        "date": "Thu, 04 Jun 2026 09:19:37 GMT",
+        "expires": "0",
+        "pragma": "no-cache",
+        "vary": "Origin",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY",
+        "x-xss-protection": "1; mode=block",
+        "transfer-encoding": "chunked"
+      },
+      "data": {
+        "orgs": [
+          "000184"
+        ]
+      },
+      "time": 4587,
+      "size": 19
+    }
+  },
+  {
+    "id": "931fbf9b-4bff-4f7f-8447-574c9f1490ab",
+    "timestamp": "2026-06-04T09:19:32.242Z",
+    "method": "POST",
+    "url": "http://nbwjw-akso.xcprod2.shie.com.cn/v0/api/bhi/authorization/check",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": {
+      "userName": "沈雅婷",
+      "idType": "1",
+      "idNumber": "320525199007191023"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+        "content-type": "application/json",
+        "date": "Thu, 04 Jun 2026 09:19:32 GMT",
+        "expires": "0",
+        "pragma": "no-cache",
+        "vary": "Origin",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY",
+        "x-xss-protection": "1; mode=block",
+        "transfer-encoding": "chunked"
+      },
+      "data": {
+        "orgs": [
+          "000184"
+        ]
+      },
+      "time": 3918,
+      "size": 19
+    }
+  },
+  {
+    "id": "a1d9837c-9255-4af7-9f40-e051dd688d6d",
+    "timestamp": "2026-06-04T09:19:15.714Z",
+    "method": "POST",
+    "url": "http://nbwjw-akso.xcprod2.shie.com.cn/v0/api/bhi/authorization/check",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": {
+      "userName": "沈雅婷",
+      "idType": "1",
+      "idNumber": "320525199007191023"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+        "content-type": "application/json",
+        "date": "Thu, 04 Jun 2026 09:19:15 GMT",
+        "expires": "0",
+        "pragma": "no-cache",
+        "vary": "Origin",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY",
+        "x-xss-protection": "1; mode=block",
+        "transfer-encoding": "chunked"
+      },
+      "data": {
+        "orgs": [
+          "000184"
+        ]
+      },
+      "time": 987,
+      "size": 19
+    }
+  },
+  {
+    "id": "da21298b-041d-4cdc-874f-b8459b37e84a",
+    "timestamp": "2026-06-04T09:19:13.487Z",
+    "method": "POST",
+    "url": "http://nbwjw-akso.xcprod2.shie.com.cn/v0/api/bhi/authorization/check",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": {
+      "userName": "沈雅婷",
+      "idType": "1",
+      "idNumber": "320525199007191023"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+        "content-type": "application/json",
+        "date": "Thu, 04 Jun 2026 09:19:13 GMT",
+        "expires": "0",
+        "pragma": "no-cache",
+        "vary": "Origin",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY",
+        "x-xss-protection": "1; mode=block",
+        "transfer-encoding": "chunked"
+      },
+      "data": {
+        "orgs": [
+          "000184"
+        ]
+      },
+      "time": 1205,
+      "size": 19
+    }
+  },
+  {
+    "id": "549e5cca-d403-46a9-8275-806acb081c16",
+    "timestamp": "2026-06-04T09:19:09.875Z",
+    "method": "POST",
+    "url": "http://nbwjw-akso.xcprod2.shie.com.cn/v0/api/bhi/authorization/check",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": {
+      "userName": "沈雅婷",
+      "idType": "1",
+      "idNumber": "320525199007191023"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+        "content-type": "application/json",
+        "date": "Thu, 04 Jun 2026 09:19:09 GMT",
+        "expires": "0",
+        "pragma": "no-cache",
+        "vary": "Origin",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY",
+        "x-xss-protection": "1; mode=block",
+        "transfer-encoding": "chunked"
+      },
+      "data": {
+        "orgs": [
+          "000184"
+        ]
+      },
+      "time": 3656,
+      "size": 19
+    }
+  },
+  {
+    "id": "23bb0c3f-d879-4a0c-8d3d-61af780f1b73",
+    "timestamp": "2026-06-04T09:10:44.063Z",
+    "method": "POST",
+    "url": "http://nbwjw-akso.xcprod2.shie.com.cn/v0/api/bhi/authorization/check",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": {
+      "userName": "沈雅婷",
+      "idType": "1",
+      "idNumber": "320525199007191023"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+        "content-type": "application/json",
+        "date": "Thu, 04 Jun 2026 09:10:44 GMT",
+        "expires": "0",
+        "pragma": "no-cache",
+        "vary": "Origin",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY",
+        "x-xss-protection": "1; mode=block",
+        "transfer-encoding": "chunked"
+      },
+      "data": {
+        "orgs": [
+          "000184"
+        ]
+      },
+      "time": 2585,
+      "size": 19
+    }
+  },
+  {
+    "id": "6a59a3a9-15bd-41b8-9c84-2465d838b6be",
+    "timestamp": "2026-06-04T09:10:23.315Z",
+    "method": "POST",
+    "url": "http://nbwjw-akso.xcprod2.shie.com.cn/v0/api/bhi/authorization/check",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": {
+      "userName": "沈雅婷",
+      "idType": "1",
+      "idNumber": "320525199007191023"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+        "content-type": "application/json",
+        "date": "Thu, 04 Jun 2026 09:10:22 GMT",
+        "expires": "0",
+        "pragma": "no-cache",
+        "vary": "Origin",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY",
+        "x-xss-protection": "1; mode=block",
+        "transfer-encoding": "chunked"
+      },
+      "data": {
+        "orgs": [
+          "000184"
+        ]
+      },
+      "time": 9878,
+      "size": 19
+    }
+  },
+  {
+    "id": "23f1b0bc-2516-4f53-b449-2713fd6d07fb",
+    "timestamp": "2026-06-04T09:10:11.085Z",
+    "method": "POST",
+    "url": "http://nbwjw-akso.xcprod2.shie.com.cn/v0/api/bhi/authorization/check",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": {
+      "userName": "沈雅婷",
+      "idType": "1",
+      "idNumber": "320525199007191023"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+        "content-type": "application/json",
+        "date": "Thu, 04 Jun 2026 09:10:10 GMT",
+        "expires": "0",
+        "pragma": "no-cache",
+        "vary": "Origin",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY",
+        "x-xss-protection": "1; mode=block",
+        "transfer-encoding": "chunked"
+      },
+      "data": {
+        "orgs": [
+          "000184"
+        ]
+      },
+      "time": 69,
+      "size": 19
+    }
+  },
+  {
+    "id": "d7de166b-750e-4856-b90b-e5cda87dafd1",
+    "timestamp": "2026-06-04T09:09:47.215Z",
+    "method": "POST",
+    "url": "http://nbwjw-akso.xcprod2.shie.com.cn/v0/api/bhi/authorization/check",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": {
+      "userName": "沈雅婷",
+      "idType": "1",
+      "idNumber": "320525199007191023"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+        "content-type": "application/json",
+        "date": "Thu, 04 Jun 2026 09:09:46 GMT",
+        "expires": "0",
+        "pragma": "no-cache",
+        "vary": "Origin",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY",
+        "x-xss-protection": "1; mode=block",
+        "transfer-encoding": "chunked"
+      },
+      "data": {
+        "orgs": [
+          "000184"
+        ]
+      },
+      "time": 1652,
+      "size": 19
+    }
+  },
+  {
+    "id": "35884374-6b1e-450a-aafe-0d2d92a23bc4",
+    "timestamp": "2026-06-04T09:09:19.683Z",
+    "method": "POST",
+    "url": "http://nbwjw-akso.xcprod2.shie.com.cn/v0/api/bhi/authorization/check",
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "body": {
+      "useName": "沈雅婷",
+      "idType": "1",
+      "idNumber": "320525199007191023"
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "via": "1.1 tinyproxy (tinyproxy/1.11.1)",
+        "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+        "content-type": "application/json",
+        "date": "Thu, 04 Jun 2026 09:09:18 GMT",
+        "expires": "0",
+        "pragma": "no-cache",
+        "vary": "Origin",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY",
+        "x-xss-protection": "1; mode=block",
+        "transfer-encoding": "chunked"
+      },
+      "data": {
+        "orgs": []
+      },
+      "time": 4886,
+      "size": 11
+    }
+  }
+]

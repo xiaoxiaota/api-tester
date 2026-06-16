@@ -1,0 +1,37 @@
+{
+  "current": "prod",
+  "environments": [
+    {
+      "id": "dev",
+      "name": "Development",
+      "variables": {
+        "url_dataapi": "10.17.10.89:8885"
+      }
+    },
+    {
+      "id": "staging",
+      "name": "Staging",
+      "variables": {
+        "url_dataapi": "ds-api-v1.test.shie.com.cn",
+        "url_akso_nbwjw": "akso-nbwjw.xctest2.shie.com.cn"
+      }
+    },
+    {
+      "id": "prod",
+      "name": "Production",
+      "variables": {
+        "url_akso_srv": "akso-service.prod.shie.com.cn",
+        "url_dataapi": "ds-api.prod.shie.com.cn",
+        "url_akso_nbwjw": "nbwjw-akso.xcprod2.shie.com.cn",
+        "url_akso": "shie-akso.xcprod2.shie.com.cn"
+      }
+    },
+    {
+      "id": "production-ire",
+      "name": "production-ire",
+      "variables": {
+        "url_dataapi": "ds-api-ire.prod.shie.com.cn"
+      }
+    }
+  ]
+}

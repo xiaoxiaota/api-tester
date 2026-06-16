@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Tester Pro - 批量请求测试工具</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔧</text></svg>">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- 顶部工具栏 -->
+        <div class="toolbar">
+            <div class="toolbar-left">
+                <h1>🔧 API Tester Pro</h1>
+                <div class="toolbar-buttons">
+                    <!-- 新增分组选择器 -->
+                    <select id="groupFilter" class="group-select" onchange="onGroupChange()">
+                        <option value="all">所有分组</option>
+                    </select>
+                    <button class="btn-small btn-secondary" onclick="createGroup()">+ 分组</button>
+                    <button class="btn-small btn-secondary" onclick="manageGroups()">管理分组</button>
+                    
+                    <button class="btn-primary" onclick="sendAllRequests()">🚀 发送全部</button>
+                    <button class="btn-success" onclick="saveCollection()">💾 保存到服务器</button>
+                    <button class="btn-info" onclick="loadCollection()">📂 从服务器加载</button>
+                    <button class="btn-info" onclick="loadFromFile()">📂 从文件导入</button>
+                    <button class="btn-warning" onclick="exportToFile()">📤 导出到文件</button>
+                </div>
+            </div>
+            <div class="toolbar-right">
+                <span id="requestCount" class="badge">0 个请求</span>
+                <span id="progressInfo" class="badge" style="display:none;"></span>
+            </div>
+        </div>
+
+        <!-- 主内容区域 -->
+        <div class="main-content">
+            <!-- 左侧：请求列表 -->
+            <div class="request-list-panel">
+                <div class="panel-header">
+                    <h3>📋 请求列表</h3>
+                    <div class="panel-actions">
+                        <button class="btn-small" onclick="addRequest()">+ 添加请求</button>
+                        <button class="btn-small btn-danger" onclick="clearAll()">清空</button>
+                    </div>
+                </div>
+                <div id="requestList" class="request-list">
+                    <!-- 请求项将通过 JS 动态添加 -->
+                </div>
+            </div>
+
+            <!-- 右侧：当前请求编辑和响应 -->
+    <div class="editor-panel">
+        <!-- 当前请求编辑 -->
+        <div class="request-editor">
+            <div class="editor-header">
+                <h3 id="currentRequestTitle">📝 编辑请求</h3>
+                <div class="editor-actions">
+                    <button class="btn-small" onclick="sendSingleRequest()">▶ 发送</button>
+                    <button class="btn-small btn-curl" onclick="generateCurlCommand()" title="复制为 CURL 命令">🔗 Curl</button>
+                    <button class="btn-small btn-danger" onclick="removeCurrentRequest()">🗑 移除</button>
+                </div>
+            </div>
+            
+            <div class="request-form">
+                <!-- 地址栏 -->
+                <div class="form-row">
+                    <select id="method" class="method-select">
+                        <option value="GET">GET</option>
+                        <option value="POST">POST</option>
+                        <option value="PUT">PUT</option>
+                        <option value="PATCH">PATCH</option>
+                        <option value="DELETE">DELETE</option>
+                        <option value="HEAD">HEAD</option>
+                        <option value="OPTIONS">OPTIONS</option>
+                    </select>
+                    <input type="text" id="requestName" class="name-input" placeholder="请求名称">
+                    <input type="text" id="url" class="url-input" placeholder="输入请求 URL...">
+                    <button class="btn-small btn-collapse" onclick="toggleAllSections()" title="折叠/展开所有设置" id="collapseBtn">🔼</button>
+                </div>
+
+                <!-- 可折叠设置区域 -->
+                <div id="settingsSection">
+                    <!-- 变量面板 -->
+                    <!-- <div class="section">
+                        <div class="section-header" onclick="toggleSection('variablesSection')">
+                            <span>🔧 变量</span>
+                            <span class="arrow">▼</span>
+                        </div>
+                        <div id="variablesSection" class="section-content active">
+                            <div id="variablesList"></div>
+                            <button class="btn-small" onclick="addVariable()">+ 添加变量</button>
+                        </div>
+                    </div>                     -->
+                    <div class="section" onclick="toggleSection('environmentVars')">
+                        <span>🌍 环境变量</span>
+                        <select id="environmentSelect" onclick="event.stopPropagation()" onchange="switchEnvironment(this.value)">
+                            <option value="dev">Development</option>
+                            <option value="staging">Staging</option>
+                            <option value="prod">Production</option>
+                        </select>
+                        <button onclick="event.stopPropagation(); showAddEnvironmentDialog()" title="新增环境">+</button>
+                    </div>
+                    <div id="environmentVars" class="section-content">
+                        <div id="envVarsList">
+                            <!-- 变量列表将动态生成 -->
+                        </div>
+                        <button onclick="event.stopPropagation(); showAddVariableDialog()">+ 添加变量</button>
+                    </div>
+                    <!-- Headers -->
+                    <div class="section">
+                        <div class="section-header" onclick="toggleSection('headersSection')">
+                            <span>📌 Headers</span>
+                            <span class="arrow">▶</span>
+                        </div>
+                        <div id="headersSection" class="section-content">
+                            <div id="headersList"></div>
+                            <button class="btn-small" onclick="addHeader()">+ 添加 Header</button>
+                        </div>
+                    </div>
+
+                    <!-- Body -->
+                    <div class="section">
+                        <div class="section-header" onclick="toggleSection('bodySection')">
+                            <span>📦 Body</span>
+                            <span class="arrow">▶</span>
+                        </div>
+                        <div id="bodySection" class="section-content">
+                            <select id="bodyType" class="body-type-select">
+                                <option value="none">无 Body</option>
+                                <option value="json">JSON</option>
+                                <option value="form">Form Data</option>
+                                <option value="text">Text</option>
+                            </select>
+                            <textarea id="bodyContent" placeholder='{"key": "value"}' style="display:none;"></textarea>
+                        </div>
+                    </div>
+
+                    <!-- 认证 -->
+                    <div class="section">
+                        <div class="section-header" onclick="toggleSection('authSection')">
+                            <span>🔐 认证</span>
+                            <span class="arrow">▶</span>
+                        </div>
+                        <div id="authSection" class="section-content">
+                            <select id="authType">
+                                <option value="none">无认证</option>
+                                <option value="basic">Basic Auth</option>
+                                <option value="bearer">Bearer Token</option>
+                                <option value="apiKey">API Key</option>
+                            </select>
+                            <div id="authDetails"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 响应显示（单个请求和批量请求共用） -->
+    <div class="response-viewer" id="responseViewer">
+        <div class="editor-header">
+            <h3>📊 响应</h3>
+            <div class="response-info">
+                <span id="statusCode" class="status-badge">-</span>
+                <span id="responseTime" class="response-meta">-</span>
+                <span id="responseSize" class="response-meta">-</span>
+            </div>
+        </div>
+        
+        <div class="response-tabs">
+            <button class="tab active" onclick="switchTab('responseBody')">Body</button>
+            <button class="tab" onclick="switchTab('responseHeaders')">Headers</button>
+            <button class="tab" onclick="switchTab('responseTimeline')">Timeline</button>
+            <button class="tab" onclick="switchTab('batchResults')" id="batchTab" style="display:none;">📋 批量结果 <span id="batchCount">0</span></button>
+        </div>
+        
+        <div id="responseBody" class="tab-content active">
+            <pre id="responseContent">等待发送请求...</pre>
+        </div>
+        <div id="responseHeaders" class="tab-content">
+            <pre id="headersContent">无数据</pre>
+        </div>
+        <div id="responseTimeline" class="tab-content">
+            <div id="timelineContent">无数据</div>
+        </div>
+        <div id="batchResults" class="tab-content">
+            <div class="batch-results-list" id="batchResultsList"></div>
+        </div>
+    </div>
+
+    <script src="/js/app.js"></script>
+</body>
+</html>

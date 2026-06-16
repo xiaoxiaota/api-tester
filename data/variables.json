@@ -1,0 +1,8 @@
+{
+  "variables": {
+    "url": "10.17.10.89:8885",
+    "test_url": "ds-api-v1.test.shie.com.cn",
+    "dev_url": "10.17.10.89:8885",
+    "prod_url": "ds-api.prod.shie.com.cn"
+  }
+}

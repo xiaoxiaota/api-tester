@@ -1,0 +1,326 @@
+{
+  "requests": [
+    {
+      "name": "api-test-insureds",
+      "method": "POST",
+      "url": "http://{{url_dataapi}}/api/v1/data/getData/test/common/insureds",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/json"
+        },
+        {
+          "key": "Accept",
+          "value": "application/json"
+        }
+      ],
+      "body": {
+        "name": "湖南2024"
+      },
+      "bodyType": "json",
+      "auth": null,
+      "groupId": "group_1780023328071",
+      "status": "success"
+    },
+    {
+      "name": "api-redis-keys",
+      "method": "GET",
+      "url": "http://{{url_dataapi}}/api/v1/stats/redis/keys",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/json"
+        },
+        {
+          "key": "Accept",
+          "value": "application/json"
+        }
+      ],
+      "body": {
+        "name": "湖南2024"
+      },
+      "bodyType": "json",
+      "auth": null,
+      "groupId": "group_1780296651879",
+      "status": "success"
+    },
+    {
+      "name": "api-redis-key",
+      "method": "GET",
+      "url": "http://{{url_dataapi}}/api/v1/stats/redis/key?key=dsv2-90e20d38",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/json"
+        },
+        {
+          "key": "Accept",
+          "value": "application/json"
+        }
+      ],
+      "body": {
+        "name": "湖南2024"
+      },
+      "bodyType": "json",
+      "auth": null,
+      "groupId": "group_1780296651879",
+      "status": "success"
+    },
+    {
+      "name": "api-redis-info",
+      "method": "GET",
+      "url": "http://{{url_dataapi}}/api/v1/stats/redis/info",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/json"
+        },
+        {
+          "key": "Accept",
+          "value": "application/json"
+        }
+      ],
+      "body": {
+        "name": "湖南2024"
+      },
+      "bodyType": "json",
+      "auth": null,
+      "groupId": "group_1780296651879",
+      "status": "success"
+    },
+    {
+      "name": "api-test-test",
+      "method": "POST",
+      "url": "http://{{url_dataapi}}/api/v1/data/getData/test/common/premium",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/json"
+        },
+        {
+          "key": "Accept",
+          "value": "application/json"
+        }
+      ],
+      "body": {
+        "name": "湖南2024"
+      },
+      "bodyType": "json",
+      "auth": null,
+      "groupId": "group_1780023328071",
+      "status": "success"
+    },
+    {
+      "name": "api-test-age",
+      "method": "POST",
+      "url": "http://{{url_dataapi}}/api/v1/data/getData/test/common/age",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/json"
+        },
+        {
+          "key": "Accept",
+          "value": "application/json"
+        }
+      ],
+      "body": {
+        "table_insure": "cq_hmb_t_ihc_order_insured",
+        "table_main": "cq_hmb_t_ihc_order_main"
+      },
+      "bodyType": "json",
+      "auth": null,
+      "groupId": "group_1780023328071"
+    },
+    {
+      "name": "api-test-median-age",
+      "method": "POST",
+      "url": "http://{{url_dataapi}}/api/v1/data/getData/test/common/median_age",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/json"
+        },
+        {
+          "key": "Accept",
+          "value": "application/json"
+        }
+      ],
+      "body": {
+        "table_insure": "cq_hmb_t_ihc_order_insured",
+        "table_main": "cq_hmb_t_ihc_order_main"
+      },
+      "bodyType": "json",
+      "auth": null,
+      "groupId": "group_1780023328071"
+    },
+    {
+      "name": "api-common",
+      "method": "POST",
+      "url": "http://{{url_dataapi}}/api/v1/data/getData/shie/nevis/policyPremium2",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/json"
+        },
+        {
+          "key": "Accept",
+          "value": "application/json"
+        }
+      ],
+      "body": {},
+      "bodyType": "json",
+      "auth": null,
+      "groupId": "group_1780023328071"
+    },
+    {
+      "name": "api-gauss-test",
+      "method": "POST",
+      "url": "http://{{url_dataapi}}/api/v1/data/getData/test/common/gausstest",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/json"
+        },
+        {
+          "key": "Accept",
+          "value": "application/json"
+        }
+      ],
+      "body": {},
+      "bodyType": "json",
+      "auth": null,
+      "groupId": "group_1780023328071",
+      "status": "success"
+    },
+    {
+      "name": "api-common",
+      "method": "GET",
+      "url": "http://{{url_dataapi}}/api/v1/data/getData/shie/nevis/policyPremium2",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/json"
+        },
+        {
+          "key": "Accept",
+          "value": "application/json"
+        }
+      ],
+      "body": null,
+      "bodyType": "none",
+      "auth": null,
+      "groupId": "group_1780276902110",
+      "status": "success"
+    },
+    {
+      "name": "akso-service-heartbeet",
+      "method": "GET",
+      "url": "http://{{url_akso_srv}}/v0/api/manage/hearbeat",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/json"
+        },
+        {
+          "key": "Accept",
+          "value": "application/json"
+        }
+      ],
+      "body": null,
+      "bodyType": "none",
+      "auth": null,
+      "groupId": "group_1780381326396",
+      "status": "success"
+    },
+    {
+      "name": "akso-check",
+      "method": "POST",
+      "url": "http://{{url_akso}}/v0/api/bhi/authorization/check",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/json"
+        },
+        {
+          "key": "Accept",
+          "value": "application/json"
+        }
+      ],
+      "body": {
+        "userName": "沈雅婷",
+        "idType": "1",
+        "idNumber": "320525199007191023"
+      },
+      "bodyType": "json",
+      "auth": null,
+      "groupId": "group_1780381326396",
+      "status": "success"
+    }
+  ],
+  "groups": [
+    {
+      "id": "default",
+      "name": "默认分组",
+      "color": "#e94560"
+    },
+    {
+      "id": "group_1780023328071",
+      "name": "dataapi-test",
+      "color": "#4ecdc4"
+    },
+    {
+      "id": "group_1780276902110",
+      "name": "dataapi-common",
+      "color": "#f39c12"
+    },
+    {
+      "id": "group_1780296651879",
+      "name": "dataapi-stats",
+      "color": "#9b59b6"
+    },
+    {
+      "id": "group_1780381326396",
+      "name": "akso",
+      "color": "#1abc9c"
+    }
+  ],
+  "globalVariables": {},
+  "environments": {
+    "current": "prod",
+    "environments": [
+      {
+        "id": "dev",
+        "name": "Development",
+        "variables": {
+          "url_dataapi": "10.17.10.89:8885"
+        }
+      },
+      {
+        "id": "staging",
+        "name": "Staging",
+        "variables": {
+          "url_dataapi": "ds-api-v1.test.shie.com.cn",
+          "url_akso_nbwjw": "akso-nbwjw.xctest2.shie.com.cn"
+        }
+      },
+      {
+        "id": "prod",
+        "name": "Production",
+        "variables": {
+          "url_akso_srv": "akso-service.prod.shie.com.cn",
+          "url_dataapi": "ds-api.prod.shie.com.cn",
+          "url_akso_nbwjw": "nbwjw-akso.xcprod2.shie.com.cn",
+          "url_akso": "shie-akso.xcprod2.shie.com.cn"
+        }
+      },
+      {
+        "id": "production-ire",
+        "name": "production-ire",
+        "variables": {
+          "url_dataapi": "ds-api-ire.prod.shie.com.cn"
+        }
+      }
+    ]
+  }
+}
