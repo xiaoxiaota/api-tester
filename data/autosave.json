@@ -214,6 +214,28 @@
       "status": "success"
     },
     {
+      "name": "api-common1",
+      "method": "POST",
+      "url": "http://{{url_dataapi}}/api/v1/data/getData/hmb/whhmb/pv_uv_org_now",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/json"
+        },
+        {
+          "key": "Accept",
+          "value": "application/json"
+        }
+      ],
+      "body": {
+        "orgCode": "000301"
+      },
+      "bodyType": "json",
+      "auth": null,
+      "groupId": "group_1780276902110",
+      "status": "success"
+    },
+    {
       "name": "akso-service-heartbeet",
       "method": "GET",
       "url": "http://{{url_akso_srv}}/v0/api/manage/hearbeat",
